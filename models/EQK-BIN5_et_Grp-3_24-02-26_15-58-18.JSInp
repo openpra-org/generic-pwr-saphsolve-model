@@ -1,0 +1,10029 @@
+{
+  "version": "1.0",
+  "saphiresolveinput": {
+    "header": {
+      "projectpath": "\"C:\\Users\\egeme\\Desktop\\models\\G-PWR Model V1.2\"",
+      "eventtree": {
+        "name": "EQK-BIN5",
+        "number": 27,
+        "initevent": 3737,
+        "seqphase": 1
+      },
+      "flagnum": 70,
+      "ftcount": 6,
+      "fthigh": 190,
+      "sqcount": 3,
+      "sqhigh": 938,
+      "becount": 380,
+      "behigh": 4690,
+      "mthigh": 1,
+      "phhigh": 1,
+      "truncparam": {
+        "ettruncopt": "NormalProbCutOff",
+        "fttruncopt": "GlobalProbCutOff",
+        "sizeopt": "ENoTrunc",
+        "ettruncval": 1.000E-20,
+        "fttruncval": 1.000E-20,
+        "sizeval": 99,
+        "transrepl": false,
+        "transzones": false,
+        "translevel": 0,
+        "usedual": false,
+        "dualcutoff": 0.000E+00
+      },
+      "workspacepair": {
+        "ph": 1,
+        "mt": 1
+      },
+      "iworkspacepair": {
+        "ph": 1,
+        "mt": 1
+      }
+    },
+    "sysgatelist": [
+      {
+        "name": "LPI-FT",
+        "id": 42,
+        "gateid": 186,
+        "gateorig": 186,
+        "gatepos": 0,
+        "eventid": 3378,
+        "gatecomp": 186,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "LPR-FT",
+        "id": 44,
+        "gateid": 31,
+        "gateorig": 31,
+        "gatepos": 0,
+        "eventid": 201,
+        "gatecomp": 31,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "ACC-FT",
+        "id": 51,
+        "gateid": 227,
+        "gateorig": 227,
+        "gatepos": 0,
+        "eventid": 81,
+        "gatecomp": 227,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "CD-EQ5-FT",
+        "id": 174,
+        "gateid": 766,
+        "gateorig": 766,
+        "gatepos": 0,
+        "eventid": 4012,
+        "gatecomp": 766,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": "W",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "LLOCA-EQ5-FT",
+        "id": 176,
+        "gateid": 768,
+        "gateorig": 768,
+        "gatepos": 0,
+        "eventid": 4014,
+        "gatecomp": 768,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": "W",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "LOOP-EQ5-FT",
+        "id": 178,
+        "gateid": 770,
+        "gateorig": 770,
+        "gatepos": 0,
+        "eventid": 4016,
+        "gatecomp": 770,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": "I",
+        "bddsuccess": false,
+        "done": false
+      }
+      ],
+    "faulttreelist": [
+    {
+      "ftheader": {
+        "ftid": 42,
+        "gtid": 186,
+        "evid": 3378,
+        "defflag": 0,
+        "numgates": 185
+      },
+      "gatelist": [
+        {
+          "gateid": 3,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             3533,
+             3623
+          ]
+      },
+        {
+          "gateid": 5,
+          "gatetype": "or",
+          "numinputs": 8,
+          "gateinput": [
+             62,
+             220,
+             692
+          ],
+          "eventinput": [
+             194,
+             3356,
+             3363,
+             3366,
+             3493
+          ]
+      },
+        {
+          "gateid": 7,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             433,
+             653
+          ]
+      },
+        {
+          "gateid": 28,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             29
+          ],
+          "eventinput": [
+             10
+          ]
+      },
+        {
+          "gateid": 29,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             45,
+             3564
+          ]
+      },
+        {
+          "gateid": 34,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             442,
+             657
+          ]
+      },
+        {
+          "gateid": 41,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             42,
+             43,
+             44,
+             46,
+             47,
+             50
+          ]
+      },
+        {
+          "gateid": 42,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             326,
+             3738
+          ]
+      },
+        {
+          "gateid": 43,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             327,
+             3817
+          ]
+      },
+        {
+          "gateid": 44,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             328,
+             3818
+          ]
+      },
+        {
+          "gateid": 46,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             329,
+             3819
+          ]
+      },
+        {
+          "gateid": 47,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             330,
+             3820
+          ]
+      },
+        {
+          "gateid": 48,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             3553,
+             3628
+          ]
+      },
+        {
+          "gateid": 49,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             104
+          ],
+          "eventinput": [
+             10
+          ]
+      },
+        {
+          "gateid": 50,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             333
+          ]
+      },
+        {
+          "gateid": 51,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             52,
+             73,
+             74,
+             75,
+             76,
+             77
+          ]
+      },
+        {
+          "gateid": 52,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             335,
+             3738
+          ]
+      },
+        {
+          "gateid": 62,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             722,
+             819,
+             834
+          ],
+          "eventinput": [
+             51,
+             52
+          ]
+      },
+        {
+          "gateid": 73,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             336,
+             3817
+          ]
+      },
+        {
+          "gateid": 74,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             337,
+             3818
+          ]
+      },
+        {
+          "gateid": 75,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             338,
+             3819
+          ]
+      },
+        {
+          "gateid": 76,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             339,
+             3820
+          ]
+      },
+        {
+          "gateid": 77,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             340
+          ]
+      },
+        {
+          "gateid": 81,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             82,
+             87
+          ]
+      },
+        {
+          "gateid": 82,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             300
+          ],
+          "eventinput": [
+             3456
+          ]
+      },
+        {
+          "gateid": 87,
+          "gatetype": "and",
+          "numinputs": 3,
+          "gateinput": [
+             300,
+             301
+          ],
+          "compeventinput": [
+             3456
+          ]
+      },
+        {
+          "gateid": 88,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             94,
+             95
+          ]
+      },
+        {
+          "gateid": 94,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             306
+          ],
+          "eventinput": [
+             3647
+          ]
+      },
+        {
+          "gateid": 95,
+          "gatetype": "and",
+          "numinputs": 3,
+          "gateinput": [
+             302,
+             306
+          ],
+          "compeventinput": [
+             3647
+          ]
+      },
+        {
+          "gateid": 104,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             45,
+             3565
+          ]
+      },
+        {
+          "gateid": 146,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             497
+          ],
+          "eventinput": [
+             3587,
+             3588,
+             3613
+          ]
+      },
+        {
+          "gateid": 170,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             51,
+             81,
+             859
+          ],
+          "eventinput": [
+             3341
+          ]
+      },
+        {
+          "gateid": 171,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             51,
+             88,
+             860
+          ],
+          "eventinput": [
+             3544
+          ]
+      },
+        {
+          "gateid": 172,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             543
+          ],
+          "eventinput": [
+             3593
+          ]
+      },
+        {
+          "gateid": 174,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             535
+          ],
+          "eventinput": [
+             3584
+          ]
+      },
+        {
+          "gateid": 186,
+          "gatetype": "3/4",
+          "numinputs": 4,
+          "gateinput": [
+             374,
+             385,
+             391,
+             397
+          ]
+      },
+        {
+          "gateid": 191,
+          "gatetype": "or",
+          "numinputs": 8,
+          "gateinput": [
+             62,
+             221,
+             751
+          ],
+          "eventinput": [
+             193,
+             194,
+             3357,
+             3364,
+             3365
+          ]
+      },
+        {
+          "gateid": 220,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             639
+          ],
+          "eventinput": [
+             3395,
+             3396,
+             3399
+          ]
+      },
+        {
+          "gateid": 221,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             639
+          ],
+          "eventinput": [
+             3400,
+             3401,
+             3404
+          ]
+      },
+        {
+          "gateid": 300,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             3,
+             7,
+             305
+          ]
+      },
+        {
+          "gateid": 301,
+          "gatetype": "or",
+          "numinputs": 6,
+          "eventinput": [
+             3539,
+             3540,
+             3541,
+             3542,
+             3543,
+             3622
+          ]
+      },
+        {
+          "gateid": 302,
+          "gatetype": "or",
+          "numinputs": 6,
+          "eventinput": [
+             3541,
+             3545,
+             3546,
+             3547,
+             3548,
+             3549
+          ]
+      },
+        {
+          "gateid": 305,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             28,
+             698
+          ],
+          "eventinput": [
+             3534,
+             3535,
+             3536,
+             3559,
+             3561,
+             3562,
+             3563,
+             3564
+          ]
+      },
+        {
+          "gateid": 306,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             34,
+             48,
+             339
+          ]
+      },
+        {
+          "gateid": 323,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             494
+          ],
+          "eventinput": [
+             3575,
+             3583,
+             3588
+          ]
+      },
+        {
+          "gateid": 339,
+          "gatetype": "or",
+          "numinputs": 9,
+          "gateinput": [
+             49,
+             698
+          ],
+          "eventinput": [
+             3554,
+             3555,
+             3556,
+             3560,
+             3561,
+             3562,
+             3563
+          ]
+      },
+        {
+          "gateid": 374,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             376,
+             380
+          ]
+      },
+        {
+          "gateid": 376,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             377
+          ],
+          "eventinput": [
+             187,
+             188,
+             2900,
+             2920,
+             3358
+          ]
+      },
+        {
+          "gateid": 377,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             112
+          ]
+      },
+        {
+          "gateid": 380,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             383,
+             384
+          ]
+      },
+        {
+          "gateid": 383,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             5
+          ]
+      },
+        {
+          "gateid": 384,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             191
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 385,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             386,
+             388
+          ]
+      },
+        {
+          "gateid": 386,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             387
+          ],
+          "eventinput": [
+             188,
+             189,
+             2901,
+             2920,
+             3358
+          ]
+      },
+        {
+          "gateid": 387,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             113
+          ]
+      },
+        {
+          "gateid": 388,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             389,
+             390
+          ]
+      },
+        {
+          "gateid": 389,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             5
+          ]
+      },
+        {
+          "gateid": 390,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             191
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 391,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             392,
+             394
+          ]
+      },
+        {
+          "gateid": 392,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             393
+          ],
+          "eventinput": [
+             188,
+             190,
+             2902,
+             2920,
+             3359
+          ]
+      },
+        {
+          "gateid": 393,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             114
+          ]
+      },
+        {
+          "gateid": 394,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             395,
+             396
+          ]
+      },
+        {
+          "gateid": 395,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             5
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 396,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             191
+          ]
+      },
+        {
+          "gateid": 397,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             398,
+             400
+          ]
+      },
+        {
+          "gateid": 398,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             399
+          ],
+          "eventinput": [
+             188,
+             191,
+             2903,
+             2920,
+             3359
+          ]
+      },
+        {
+          "gateid": 399,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             115
+          ]
+      },
+        {
+          "gateid": 400,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             404,
+             406
+          ]
+      },
+        {
+          "gateid": 404,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             5
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 406,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             191
+          ]
+      },
+        {
+          "gateid": 433,
+          "gatetype": "or",
+          "numinputs": 11,
+          "gateinput": [
+             467,
+             653,
+             728,
+             838,
+             849,
+             867
+          ],
+          "eventinput": [
+             3695,
+             3698,
+             3709,
+             3710,
+             3766
+          ]
+      },
+        {
+          "gateid": 442,
+          "gatetype": "or",
+          "numinputs": 11,
+          "gateinput": [
+             466,
+             657,
+             728,
+             838,
+             849,
+             869
+          ],
+          "eventinput": [
+             3696,
+             3699,
+             3704,
+             3709,
+             3710
+          ]
+      },
+        {
+          "gateid": 453,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             461,
+             469,
+             473,
+             474,
+             475,
+             476
+          ]
+      },
+        {
+          "gateid": 461,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             391,
+             3738
+          ]
+      },
+        {
+          "gateid": 466,
+          "gatetype": "or",
+          "numinputs": 5,
+          "eventinput": [
+             3687,
+             3690,
+             3693,
+             3702,
+             3703
+          ]
+      },
+        {
+          "gateid": 467,
+          "gatetype": "or",
+          "numinputs": 5,
+          "eventinput": [
+             3686,
+             3689,
+             3692,
+             3702,
+             3703
+          ]
+      },
+        {
+          "gateid": 469,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             392,
+             3817
+          ]
+      },
+        {
+          "gateid": 473,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             393,
+             3818
+          ]
+      },
+        {
+          "gateid": 474,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             394,
+             3819
+          ]
+      },
+        {
+          "gateid": 475,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             395,
+             3820
+          ]
+      },
+        {
+          "gateid": 476,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             396
+          ]
+      },
+        {
+          "gateid": 477,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             478,
+             479,
+             503,
+             504,
+             505,
+             507
+          ]
+      },
+        {
+          "gateid": 478,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             398,
+             3738
+          ]
+      },
+        {
+          "gateid": 479,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             399,
+             3817
+          ]
+      },
+        {
+          "gateid": 494,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             41,
+             170,
+             698
+          ],
+          "eventinput": [
+             3458,
+             3572,
+             3573,
+             3574
+          ]
+      },
+        {
+          "gateid": 497,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             41,
+             171,
+             698
+          ],
+          "eventinput": [
+             3758,
+             3759,
+             3760,
+             3761
+          ]
+      },
+        {
+          "gateid": 503,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             400,
+             3818
+          ]
+      },
+        {
+          "gateid": 504,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             401,
+             3819
+          ]
+      },
+        {
+          "gateid": 505,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             402,
+             3820
+          ]
+      },
+        {
+          "gateid": 507,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             403
+          ]
+      },
+        {
+          "gateid": 508,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             318,
+             405
+          ]
+      },
+        {
+          "gateid": 509,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             414,
+             415
+          ]
+      },
+        {
+          "gateid": 514,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             316,
+             416
+          ]
+      },
+        {
+          "gateid": 515,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             417,
+             418
+          ]
+      },
+        {
+          "gateid": 516,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             421,
+             422
+          ]
+      },
+        {
+          "gateid": 517,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             508
+          ],
+          "eventinput": [
+             3738
+          ]
+      },
+        {
+          "gateid": 518,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             509
+          ],
+          "eventinput": [
+             3817
+          ]
+      },
+        {
+          "gateid": 523,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             514
+          ],
+          "eventinput": [
+             3818
+          ]
+      },
+        {
+          "gateid": 524,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             515
+          ],
+          "eventinput": [
+             3819
+          ]
+      },
+        {
+          "gateid": 535,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             536,
+             538
+          ]
+      },
+        {
+          "gateid": 536,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             537
+          ],
+          "compeventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 537,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             146,
+             960
+          ]
+      },
+        {
+          "gateid": 538,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             539
+          ],
+          "eventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 539,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             540,
+             541
+          ]
+      },
+        {
+          "gateid": 540,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3591,
+             3592
+          ]
+      },
+        {
+          "gateid": 541,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             497
+          ],
+          "eventinput": [
+             3587,
+             3588,
+             3613
+          ]
+      },
+        {
+          "gateid": 543,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             545,
+             549
+          ]
+      },
+        {
+          "gateid": 545,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             548
+          ],
+          "compeventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 548,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             323,
+             959
+          ]
+      },
+        {
+          "gateid": 549,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             566
+          ],
+          "eventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 566,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             567,
+             568
+          ]
+      },
+        {
+          "gateid": 567,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3582,
+             3592
+          ]
+      },
+        {
+          "gateid": 568,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             494
+          ],
+          "eventinput": [
+             3575,
+             3583,
+             3588
+          ]
+      },
+        {
+          "gateid": 614,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             419,
+             420
+          ]
+      },
+        {
+          "gateid": 628,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             632,
+             633,
+             634,
+             636,
+             637,
+             638
+          ]
+      },
+        {
+          "gateid": 632,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             429,
+             3738
+          ]
+      },
+        {
+          "gateid": 633,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             430,
+             3817
+          ]
+      },
+        {
+          "gateid": 634,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             431,
+             3818
+          ]
+      },
+        {
+          "gateid": 636,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             432,
+             3819
+          ]
+      },
+        {
+          "gateid": 637,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             433,
+             3820
+          ]
+      },
+        {
+          "gateid": 638,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             434
+          ]
+      },
+        {
+          "gateid": 639,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             640,
+             641,
+             642,
+             643,
+             644,
+             649
+          ]
+      },
+        {
+          "gateid": 640,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             438,
+             3738
+          ]
+      },
+        {
+          "gateid": 641,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             439,
+             3817
+          ]
+      },
+        {
+          "gateid": 642,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             440,
+             3818
+          ]
+      },
+        {
+          "gateid": 643,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             441,
+             3819
+          ]
+      },
+        {
+          "gateid": 644,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             442,
+             3820
+          ]
+      },
+        {
+          "gateid": 649,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             443
+          ]
+      },
+        {
+          "gateid": 653,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             654
+          ],
+          "eventinput": [
+             3593
+          ]
+      },
+        {
+          "gateid": 654,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             655,
+             656
+          ]
+      },
+        {
+          "gateid": 655,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3582,
+             3592
+          ]
+      },
+        {
+          "gateid": 656,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477
+          ],
+          "eventinput": [
+             3572,
+             3575,
+             3583,
+             3588
+          ]
+      },
+        {
+          "gateid": 657,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             658
+          ],
+          "eventinput": [
+             3584
+          ]
+      },
+        {
+          "gateid": 658,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             659,
+             660
+          ]
+      },
+        {
+          "gateid": 659,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3591,
+             3592
+          ]
+      },
+        {
+          "gateid": 660,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477
+          ],
+          "eventinput": [
+             3587,
+             3588,
+             3613,
+             3758
+          ]
+      },
+        {
+          "gateid": 662,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             451,
+             3738
+          ]
+      },
+        {
+          "gateid": 663,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             452,
+             3817
+          ]
+      },
+        {
+          "gateid": 664,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             453,
+             3818
+          ]
+      },
+        {
+          "gateid": 665,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             454,
+             3819
+          ]
+      },
+        {
+          "gateid": 674,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             481,
+             3738
+          ]
+      },
+        {
+          "gateid": 683,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             482,
+             3817
+          ]
+      },
+        {
+          "gateid": 692,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             170,
+             172,
+             628,
+             865
+          ],
+          "eventinput": [
+             192,
+             3369,
+             3371,
+             3373,
+             3383,
+             3384
+          ]
+      },
+        {
+          "gateid": 698,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             517,
+             518,
+             523,
+             524,
+             699,
+             700
+          ]
+      },
+        {
+          "gateid": 699,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             614
+          ],
+          "eventinput": [
+             3820
+          ]
+      },
+        {
+          "gateid": 700,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             516
+          ],
+          "eventinput": [
+             312
+          ]
+      },
+        {
+          "gateid": 722,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             662,
+             663,
+             664,
+             665,
+             723,
+             724
+          ]
+      },
+        {
+          "gateid": 723,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             455,
+             3820
+          ]
+      },
+        {
+          "gateid": 724,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             456
+          ]
+      },
+        {
+          "gateid": 728,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             674,
+             683,
+             740,
+             743,
+             744,
+             745
+          ]
+      },
+        {
+          "gateid": 740,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             483,
+             3818
+          ]
+      },
+        {
+          "gateid": 743,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             484,
+             3819
+          ]
+      },
+        {
+          "gateid": 744,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             485,
+             3820
+          ]
+      },
+        {
+          "gateid": 745,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             486
+          ]
+      },
+        {
+          "gateid": 751,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             171,
+             174,
+             628,
+             866
+          ],
+          "eventinput": [
+             195,
+             3370,
+             3372,
+             3374,
+             3383,
+             3384
+          ]
+      },
+        {
+          "gateid": 819,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             820,
+             821,
+             822,
+             823,
+             824
+          ]
+      },
+        {
+          "gateid": 820,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             106,
+             553
+          ]
+      },
+        {
+          "gateid": 821,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             513,
+             554
+          ]
+      },
+        {
+          "gateid": 822,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             514,
+             555
+          ]
+      },
+        {
+          "gateid": 823,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             515,
+             556
+          ]
+      },
+        {
+          "gateid": 824,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             516,
+             557
+          ]
+      },
+        {
+          "gateid": 834,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             835,
+             836,
+             837
+          ]
+      },
+        {
+          "gateid": 835,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             517,
+             563
+          ]
+      },
+        {
+          "gateid": 836,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             518,
+             564
+          ]
+      },
+        {
+          "gateid": 837,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             519,
+             565
+          ]
+      },
+        {
+          "gateid": 838,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             844,
+             845,
+             846,
+             847,
+             848
+          ]
+      },
+        {
+          "gateid": 844,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             106,
+             567
+          ]
+      },
+        {
+          "gateid": 845,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             513,
+             568
+          ]
+      },
+        {
+          "gateid": 846,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             514,
+             569
+          ]
+      },
+        {
+          "gateid": 847,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             515,
+             570
+          ]
+      },
+        {
+          "gateid": 848,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             516,
+             571
+          ]
+      },
+        {
+          "gateid": 849,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             855,
+             856,
+             857
+          ]
+      },
+        {
+          "gateid": 855,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             517,
+             569
+          ]
+      },
+        {
+          "gateid": 856,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             518,
+             574
+          ]
+      },
+        {
+          "gateid": 857,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             519,
+             575
+          ]
+      },
+        {
+          "gateid": 859,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             105,
+             461
+          ]
+      },
+        {
+          "gateid": 860,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             116,
+             461
+          ]
+      },
+        {
+          "gateid": 865,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             77
+          ]
+      },
+        {
+          "gateid": 866,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             77
+          ]
+      },
+        {
+          "gateid": 867,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             868
+          ],
+          "eventinput": [
+             100
+          ]
+      },
+        {
+          "gateid": 868,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             78,
+             461
+          ]
+      },
+        {
+          "gateid": 869,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             870
+          ],
+          "eventinput": [
+             101
+          ]
+      },
+        {
+          "gateid": 870,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             78,
+             461
+          ]
+      },
+        {
+          "gateid": 959,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3582,
+             3592
+          ]
+      },
+        {
+          "gateid": 960,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3591,
+             3592
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 44,
+        "gtid": 31,
+        "evid": 201,
+        "defflag": 0,
+        "numgates": 247
+      },
+      "gatelist": [
+        {
+          "gateid": 3,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             3533,
+             3623
+          ]
+      },
+        {
+          "gateid": 7,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             433,
+             653
+          ]
+      },
+        {
+          "gateid": 28,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             29
+          ],
+          "eventinput": [
+             10
+          ]
+      },
+        {
+          "gateid": 29,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             45,
+             3564
+          ]
+      },
+        {
+          "gateid": 31,
+          "gatetype": "3/4",
+          "numinputs": 4,
+          "gateinput": [
+             184,
+             205,
+             230,
+             244
+          ]
+      },
+        {
+          "gateid": 34,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             442,
+             657
+          ]
+      },
+        {
+          "gateid": 35,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             36,
+             152
+          ]
+      },
+        {
+          "gateid": 36,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             174
+          ],
+          "eventinput": [
+             3470,
+             3478
+          ]
+      },
+        {
+          "gateid": 37,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             38,
+             92
+          ]
+      },
+        {
+          "gateid": 38,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             172
+          ],
+          "eventinput": [
+             3470,
+             3477
+          ]
+      },
+        {
+          "gateid": 41,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             42,
+             43,
+             44,
+             46,
+             47,
+             50
+          ]
+      },
+        {
+          "gateid": 42,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             326,
+             3738
+          ]
+      },
+        {
+          "gateid": 43,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             327,
+             3817
+          ]
+      },
+        {
+          "gateid": 44,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             328,
+             3818
+          ]
+      },
+        {
+          "gateid": 46,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             329,
+             3819
+          ]
+      },
+        {
+          "gateid": 47,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             330,
+             3820
+          ]
+      },
+        {
+          "gateid": 48,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             3553,
+             3628
+          ]
+      },
+        {
+          "gateid": 49,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             104
+          ],
+          "eventinput": [
+             10
+          ]
+      },
+        {
+          "gateid": 50,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             333
+          ]
+      },
+        {
+          "gateid": 51,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             52,
+             73,
+             74,
+             75,
+             76,
+             77
+          ]
+      },
+        {
+          "gateid": 52,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             335,
+             3738
+          ]
+      },
+        {
+          "gateid": 73,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             336,
+             3817
+          ]
+      },
+        {
+          "gateid": 74,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             337,
+             3818
+          ]
+      },
+        {
+          "gateid": 75,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             338,
+             3819
+          ]
+      },
+        {
+          "gateid": 76,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             339,
+             3820
+          ]
+      },
+        {
+          "gateid": 77,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             340
+          ]
+      },
+        {
+          "gateid": 81,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             82,
+             87
+          ]
+      },
+        {
+          "gateid": 82,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             300
+          ],
+          "eventinput": [
+             3456
+          ]
+      },
+        {
+          "gateid": 87,
+          "gatetype": "and",
+          "numinputs": 3,
+          "gateinput": [
+             300,
+             301
+          ],
+          "compeventinput": [
+             3456
+          ]
+      },
+        {
+          "gateid": 88,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             94,
+             95
+          ]
+      },
+        {
+          "gateid": 92,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             3453,
+             4690
+          ]
+      },
+        {
+          "gateid": 94,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             306
+          ],
+          "eventinput": [
+             3647
+          ]
+      },
+        {
+          "gateid": 95,
+          "gatetype": "and",
+          "numinputs": 3,
+          "gateinput": [
+             302,
+             306
+          ],
+          "compeventinput": [
+             3647
+          ]
+      },
+        {
+          "gateid": 104,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             45,
+             3565
+          ]
+      },
+        {
+          "gateid": 145,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             365,
+             3738
+          ]
+      },
+        {
+          "gateid": 146,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             497
+          ],
+          "eventinput": [
+             3587,
+             3588,
+             3613
+          ]
+      },
+        {
+          "gateid": 147,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             148,
+             150
+          ]
+      },
+        {
+          "gateid": 148,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             149
+          ],
+          "eventinput": [
+             3453
+          ]
+      },
+        {
+          "gateid": 149,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             170,
+             172
+          ]
+      },
+        {
+          "gateid": 150,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             151
+          ],
+          "eventinput": [
+             3457
+          ]
+      },
+        {
+          "gateid": 151,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             171,
+             174
+          ]
+      },
+        {
+          "gateid": 152,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             3457,
+             4690
+          ]
+      },
+        {
+          "gateid": 168,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             366,
+             3817
+          ]
+      },
+        {
+          "gateid": 170,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             51,
+             81,
+             859
+          ],
+          "eventinput": [
+             3341
+          ]
+      },
+        {
+          "gateid": 171,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             51,
+             88,
+             860
+          ],
+          "eventinput": [
+             3544
+          ]
+      },
+        {
+          "gateid": 172,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             543
+          ],
+          "eventinput": [
+             3593
+          ]
+      },
+        {
+          "gateid": 174,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             535
+          ],
+          "eventinput": [
+             3584
+          ]
+      },
+        {
+          "gateid": 176,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             360,
+             401,
+             862
+          ],
+          "eventinput": [
+             3532
+          ]
+      },
+        {
+          "gateid": 177,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             375,
+             409,
+             877
+          ],
+          "eventinput": [
+             3532
+          ]
+      },
+        {
+          "gateid": 178,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             170,
+             428,
+             520,
+             728,
+             838,
+             849
+          ],
+          "eventinput": [
+             3695,
+             3698,
+             3709,
+             3710
+          ]
+      },
+        {
+          "gateid": 179,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             171,
+             440,
+             521,
+             728,
+             838,
+             849
+          ],
+          "eventinput": [
+             3696,
+             3699,
+             3704,
+             3709
+          ]
+      },
+        {
+          "gateid": 183,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             367,
+             3818
+          ]
+      },
+        {
+          "gateid": 184,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             199,
+             201
+          ]
+      },
+        {
+          "gateid": 185,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             368,
+             3819
+          ]
+      },
+        {
+          "gateid": 199,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             200
+          ],
+          "eventinput": [
+             187,
+             188,
+             2900,
+             2920,
+             3358
+          ]
+      },
+        {
+          "gateid": 200,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             112
+          ]
+      },
+        {
+          "gateid": 201,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             202,
+             204
+          ]
+      },
+        {
+          "gateid": 202,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             216
+          ]
+      },
+        {
+          "gateid": 204,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             218
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 205,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             206,
+             222
+          ]
+      },
+        {
+          "gateid": 206,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             207
+          ],
+          "eventinput": [
+             188,
+             189,
+             2901,
+             2920,
+             3358
+          ]
+      },
+        {
+          "gateid": 207,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             113
+          ]
+      },
+        {
+          "gateid": 208,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             369,
+             3820
+          ]
+      },
+        {
+          "gateid": 209,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             370
+          ]
+      },
+        {
+          "gateid": 210,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             211,
+             212,
+             213,
+             214,
+             215,
+             226
+          ]
+      },
+        {
+          "gateid": 211,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             371,
+             3738
+          ]
+      },
+        {
+          "gateid": 212,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             372,
+             3817
+          ]
+      },
+        {
+          "gateid": 213,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             373,
+             3818
+          ]
+      },
+        {
+          "gateid": 214,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             374,
+             3819
+          ]
+      },
+        {
+          "gateid": 215,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             375,
+             3820
+          ]
+      },
+        {
+          "gateid": 216,
+          "gatetype": "or",
+          "numinputs": 9,
+          "gateinput": [
+             176,
+             220,
+             224,
+             692
+          ],
+          "eventinput": [
+             3363,
+             3389,
+             3391,
+             3732,
+             3734
+          ]
+      },
+        {
+          "gateid": 218,
+          "gatetype": "or",
+          "numinputs": 9,
+          "gateinput": [
+             177,
+             221,
+             225,
+             751
+          ],
+          "eventinput": [
+             3364,
+             3390,
+             3391,
+             3733,
+             3734
+          ]
+      },
+        {
+          "gateid": 220,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             639
+          ],
+          "eventinput": [
+             3395,
+             3396,
+             3399
+          ]
+      },
+        {
+          "gateid": 221,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             639
+          ],
+          "eventinput": [
+             3400,
+             3401,
+             3404
+          ]
+      },
+        {
+          "gateid": 222,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             223,
+             228
+          ]
+      },
+        {
+          "gateid": 223,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             216
+          ]
+      },
+        {
+          "gateid": 224,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             202
+          ]
+      },
+        {
+          "gateid": 225,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             203
+          ]
+      },
+        {
+          "gateid": 226,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             376
+          ]
+      },
+        {
+          "gateid": 228,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             218
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 230,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             232,
+             241
+          ]
+      },
+        {
+          "gateid": 232,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             240
+          ],
+          "eventinput": [
+             188,
+             190,
+             2902,
+             2920,
+             3359
+          ]
+      },
+        {
+          "gateid": 240,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             114
+          ]
+      },
+        {
+          "gateid": 241,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             242,
+             243
+          ]
+      },
+        {
+          "gateid": 242,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             216
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 243,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             218
+          ]
+      },
+        {
+          "gateid": 244,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             245,
+             247
+          ]
+      },
+        {
+          "gateid": 245,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             246
+          ],
+          "eventinput": [
+             188,
+             191,
+             2903,
+             2920,
+             3359
+          ]
+      },
+        {
+          "gateid": 246,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             115
+          ]
+      },
+        {
+          "gateid": 247,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             248,
+             299
+          ]
+      },
+        {
+          "gateid": 248,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             216
+          ],
+          "eventinput": [
+             3361,
+             3362
+          ]
+      },
+        {
+          "gateid": 299,
+          "gatetype": "or",
+          "numinputs": 1,
+          "gateinput": [
+             218
+          ]
+      },
+        {
+          "gateid": 300,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             3,
+             7,
+             305
+          ]
+      },
+        {
+          "gateid": 301,
+          "gatetype": "or",
+          "numinputs": 6,
+          "eventinput": [
+             3539,
+             3540,
+             3541,
+             3542,
+             3543,
+             3622
+          ]
+      },
+        {
+          "gateid": 302,
+          "gatetype": "or",
+          "numinputs": 6,
+          "eventinput": [
+             3541,
+             3545,
+             3546,
+             3547,
+             3548,
+             3549
+          ]
+      },
+        {
+          "gateid": 305,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             28,
+             698
+          ],
+          "eventinput": [
+             3534,
+             3535,
+             3536,
+             3559,
+             3561,
+             3562,
+             3563,
+             3564
+          ]
+      },
+        {
+          "gateid": 306,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             34,
+             48,
+             339
+          ]
+      },
+        {
+          "gateid": 323,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             494
+          ],
+          "eventinput": [
+             3575,
+             3583,
+             3588
+          ]
+      },
+        {
+          "gateid": 339,
+          "gatetype": "or",
+          "numinputs": 9,
+          "gateinput": [
+             49,
+             698
+          ],
+          "eventinput": [
+             3554,
+             3555,
+             3556,
+             3560,
+             3561,
+             3562,
+             3563
+          ]
+      },
+        {
+          "gateid": 360,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             423,
+             426
+          ],
+          "eventinput": [
+             64,
+             65
+          ]
+      },
+        {
+          "gateid": 367,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             37,
+             170,
+             678,
+             1465
+          ],
+          "eventinput": [
+             592,
+             3473
+          ]
+      },
+        {
+          "gateid": 368,
+          "gatetype": "or",
+          "numinputs": 9,
+          "gateinput": [
+             147,
+             678,
+             1465
+          ],
+          "eventinput": [
+             120,
+             592,
+             3470,
+             3475,
+             3481,
+             3485
+          ]
+      },
+        {
+          "gateid": 375,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             424,
+             427
+          ],
+          "eventinput": [
+             127,
+             128
+          ]
+      },
+        {
+          "gateid": 381,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             35,
+             171,
+             678,
+             1465
+          ],
+          "eventinput": [
+             592,
+             3474
+          ]
+      },
+        {
+          "gateid": 401,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             402,
+             405
+          ]
+      },
+        {
+          "gateid": 402,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             367,
+             403
+          ]
+      },
+        {
+          "gateid": 403,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             121,
+             122
+          ]
+      },
+        {
+          "gateid": 405,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             368,
+             666
+          ]
+      },
+        {
+          "gateid": 409,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             410,
+             413
+          ]
+      },
+        {
+          "gateid": 410,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             381,
+             411
+          ]
+      },
+        {
+          "gateid": 411,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             125,
+             126
+          ]
+      },
+        {
+          "gateid": 413,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             368,
+             667
+          ]
+      },
+        {
+          "gateid": 422,
+          "gatetype": "or",
+          "numinputs": 9,
+          "gateinput": [
+             434,
+             522,
+             728,
+             838,
+             849
+          ],
+          "eventinput": [
+             3697,
+             3700,
+             3709,
+             3710
+          ]
+      },
+        {
+          "gateid": 423,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             210
+          ],
+          "eventinput": [
+             3462,
+             3464,
+             3678,
+             3679
+          ]
+      },
+        {
+          "gateid": 424,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             210
+          ],
+          "eventinput": [
+             3462,
+             3465,
+             3670,
+             3672
+          ]
+      },
+        {
+          "gateid": 426,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             871,
+             872
+          ]
+      },
+        {
+          "gateid": 427,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             874,
+             875
+          ]
+      },
+        {
+          "gateid": 428,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             429,
+             430
+          ]
+      },
+        {
+          "gateid": 429,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             172
+          ],
+          "eventinput": [
+             3689,
+             3702
+          ]
+      },
+        {
+          "gateid": 430,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             221,
+             4690
+          ]
+      },
+        {
+          "gateid": 432,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             422
+          ],
+          "eventinput": [
+             222
+          ]
+      },
+        {
+          "gateid": 433,
+          "gatetype": "or",
+          "numinputs": 11,
+          "gateinput": [
+             467,
+             653,
+             728,
+             838,
+             849,
+             867
+          ],
+          "eventinput": [
+             3695,
+             3698,
+             3709,
+             3710,
+             3766
+          ]
+      },
+        {
+          "gateid": 434,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             437,
+             438
+          ]
+      },
+        {
+          "gateid": 435,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             170,
+             172
+          ]
+      },
+        {
+          "gateid": 436,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             171,
+             174
+          ]
+      },
+        {
+          "gateid": 437,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             435
+          ],
+          "eventinput": [
+             221
+          ]
+      },
+        {
+          "gateid": 438,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             436
+          ],
+          "eventinput": [
+             225
+          ]
+      },
+        {
+          "gateid": 439,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             422
+          ],
+          "eventinput": [
+             224
+          ]
+      },
+        {
+          "gateid": 440,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             441,
+             443
+          ]
+      },
+        {
+          "gateid": 441,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             174
+          ],
+          "eventinput": [
+             3690,
+             3702
+          ]
+      },
+        {
+          "gateid": 442,
+          "gatetype": "or",
+          "numinputs": 11,
+          "gateinput": [
+             466,
+             657,
+             728,
+             838,
+             849,
+             869
+          ],
+          "eventinput": [
+             3696,
+             3699,
+             3704,
+             3709,
+             3710
+          ]
+      },
+        {
+          "gateid": 443,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             225,
+             4690
+          ]
+      },
+        {
+          "gateid": 453,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             461,
+             469,
+             473,
+             474,
+             475,
+             476
+          ]
+      },
+        {
+          "gateid": 461,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             391,
+             3738
+          ]
+      },
+        {
+          "gateid": 466,
+          "gatetype": "or",
+          "numinputs": 5,
+          "eventinput": [
+             3687,
+             3690,
+             3693,
+             3702,
+             3703
+          ]
+      },
+        {
+          "gateid": 467,
+          "gatetype": "or",
+          "numinputs": 5,
+          "eventinput": [
+             3686,
+             3689,
+             3692,
+             3702,
+             3703
+          ]
+      },
+        {
+          "gateid": 469,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             392,
+             3817
+          ]
+      },
+        {
+          "gateid": 473,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             393,
+             3818
+          ]
+      },
+        {
+          "gateid": 474,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             394,
+             3819
+          ]
+      },
+        {
+          "gateid": 475,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             395,
+             3820
+          ]
+      },
+        {
+          "gateid": 476,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             396
+          ]
+      },
+        {
+          "gateid": 477,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             478,
+             479,
+             503,
+             504,
+             505,
+             507
+          ]
+      },
+        {
+          "gateid": 478,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             398,
+             3738
+          ]
+      },
+        {
+          "gateid": 479,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             399,
+             3817
+          ]
+      },
+        {
+          "gateid": 494,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             41,
+             170,
+             698
+          ],
+          "eventinput": [
+             3458,
+             3572,
+             3573,
+             3574
+          ]
+      },
+        {
+          "gateid": 497,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             41,
+             171,
+             698
+          ],
+          "eventinput": [
+             3758,
+             3759,
+             3760,
+             3761
+          ]
+      },
+        {
+          "gateid": 503,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             400,
+             3818
+          ]
+      },
+        {
+          "gateid": 504,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             401,
+             3819
+          ]
+      },
+        {
+          "gateid": 505,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             402,
+             3820
+          ]
+      },
+        {
+          "gateid": 507,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             403
+          ]
+      },
+        {
+          "gateid": 508,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             318,
+             405
+          ]
+      },
+        {
+          "gateid": 509,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             414,
+             415
+          ]
+      },
+        {
+          "gateid": 514,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             316,
+             416
+          ]
+      },
+        {
+          "gateid": 515,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             417,
+             418
+          ]
+      },
+        {
+          "gateid": 516,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             421,
+             422
+          ]
+      },
+        {
+          "gateid": 517,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             508
+          ],
+          "eventinput": [
+             3738
+          ]
+      },
+        {
+          "gateid": 518,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             509
+          ],
+          "eventinput": [
+             3817
+          ]
+      },
+        {
+          "gateid": 520,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             3686,
+             3692,
+             3703
+          ]
+      },
+        {
+          "gateid": 521,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             3687,
+             3693,
+             3703
+          ]
+      },
+        {
+          "gateid": 522,
+          "gatetype": "or",
+          "numinputs": 6,
+          "eventinput": [
+             223,
+             3688,
+             3691,
+             3694,
+             3702,
+             3703
+          ]
+      },
+        {
+          "gateid": 523,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             514
+          ],
+          "eventinput": [
+             3818
+          ]
+      },
+        {
+          "gateid": 524,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             515
+          ],
+          "eventinput": [
+             3819
+          ]
+      },
+        {
+          "gateid": 535,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             536,
+             538
+          ]
+      },
+        {
+          "gateid": 536,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             537
+          ],
+          "compeventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 537,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             146,
+             960
+          ]
+      },
+        {
+          "gateid": 538,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             539
+          ],
+          "eventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 539,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             540,
+             541
+          ]
+      },
+        {
+          "gateid": 540,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3591,
+             3592
+          ]
+      },
+        {
+          "gateid": 541,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             497
+          ],
+          "eventinput": [
+             3587,
+             3588,
+             3613
+          ]
+      },
+        {
+          "gateid": 543,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             545,
+             549
+          ]
+      },
+        {
+          "gateid": 545,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             548
+          ],
+          "compeventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 548,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             323,
+             959
+          ]
+      },
+        {
+          "gateid": 549,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             566
+          ],
+          "eventinput": [
+             3665
+          ]
+      },
+        {
+          "gateid": 566,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             567,
+             568
+          ]
+      },
+        {
+          "gateid": 567,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3582,
+             3592
+          ]
+      },
+        {
+          "gateid": 568,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477,
+             494
+          ],
+          "eventinput": [
+             3575,
+             3583,
+             3588
+          ]
+      },
+        {
+          "gateid": 614,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             419,
+             420
+          ]
+      },
+        {
+          "gateid": 628,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             632,
+             633,
+             634,
+             636,
+             637,
+             638
+          ]
+      },
+        {
+          "gateid": 632,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             429,
+             3738
+          ]
+      },
+        {
+          "gateid": 633,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             430,
+             3817
+          ]
+      },
+        {
+          "gateid": 634,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             431,
+             3818
+          ]
+      },
+        {
+          "gateid": 636,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             432,
+             3819
+          ]
+      },
+        {
+          "gateid": 637,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             433,
+             3820
+          ]
+      },
+        {
+          "gateid": 638,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             434
+          ]
+      },
+        {
+          "gateid": 639,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             640,
+             641,
+             642,
+             643,
+             644,
+             649
+          ]
+      },
+        {
+          "gateid": 640,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             438,
+             3738
+          ]
+      },
+        {
+          "gateid": 641,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             439,
+             3817
+          ]
+      },
+        {
+          "gateid": 642,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             440,
+             3818
+          ]
+      },
+        {
+          "gateid": 643,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             441,
+             3819
+          ]
+      },
+        {
+          "gateid": 644,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             442,
+             3820
+          ]
+      },
+        {
+          "gateid": 649,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             443
+          ]
+      },
+        {
+          "gateid": 653,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             654
+          ],
+          "eventinput": [
+             3593
+          ]
+      },
+        {
+          "gateid": 654,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             655,
+             656
+          ]
+      },
+        {
+          "gateid": 655,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3582,
+             3592
+          ]
+      },
+        {
+          "gateid": 656,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477
+          ],
+          "eventinput": [
+             3572,
+             3575,
+             3583,
+             3588
+          ]
+      },
+        {
+          "gateid": 657,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             658
+          ],
+          "eventinput": [
+             3584
+          ]
+      },
+        {
+          "gateid": 658,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             659,
+             660
+          ]
+      },
+        {
+          "gateid": 659,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3591,
+             3592
+          ]
+      },
+        {
+          "gateid": 660,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             477
+          ],
+          "eventinput": [
+             3587,
+             3588,
+             3613,
+             3758
+          ]
+      },
+        {
+          "gateid": 666,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             82,
+             123,
+             124
+          ]
+      },
+        {
+          "gateid": 667,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             82,
+             129,
+             130
+          ]
+      },
+        {
+          "gateid": 674,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             481,
+             3738
+          ]
+      },
+        {
+          "gateid": 678,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             145,
+             168,
+             183,
+             185,
+             208,
+             209
+          ]
+      },
+        {
+          "gateid": 683,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             482,
+             3817
+          ]
+      },
+        {
+          "gateid": 692,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             170,
+             172,
+             628,
+             865
+          ],
+          "eventinput": [
+             192,
+             3369,
+             3371,
+             3373,
+             3383,
+             3384
+          ]
+      },
+        {
+          "gateid": 698,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             517,
+             518,
+             523,
+             524,
+             699,
+             700
+          ]
+      },
+        {
+          "gateid": 699,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             614
+          ],
+          "eventinput": [
+             3820
+          ]
+      },
+        {
+          "gateid": 700,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             516
+          ],
+          "eventinput": [
+             312
+          ]
+      },
+        {
+          "gateid": 728,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             674,
+             683,
+             740,
+             743,
+             744,
+             745
+          ]
+      },
+        {
+          "gateid": 740,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             483,
+             3818
+          ]
+      },
+        {
+          "gateid": 743,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             484,
+             3819
+          ]
+      },
+        {
+          "gateid": 744,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             485,
+             3820
+          ]
+      },
+        {
+          "gateid": 745,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             486
+          ]
+      },
+        {
+          "gateid": 751,
+          "gatetype": "or",
+          "numinputs": 10,
+          "gateinput": [
+             171,
+             174,
+             628,
+             866
+          ],
+          "eventinput": [
+             195,
+             3370,
+             3372,
+             3374,
+             3383,
+             3384
+          ]
+      },
+        {
+          "gateid": 838,
+          "gatetype": "or",
+          "numinputs": 5,
+          "gateinput": [
+             844,
+             845,
+             846,
+             847,
+             848
+          ]
+      },
+        {
+          "gateid": 844,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             106,
+             567
+          ]
+      },
+        {
+          "gateid": 845,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             513,
+             568
+          ]
+      },
+        {
+          "gateid": 846,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             514,
+             569
+          ]
+      },
+        {
+          "gateid": 847,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             515,
+             570
+          ]
+      },
+        {
+          "gateid": 848,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             516,
+             571
+          ]
+      },
+        {
+          "gateid": 849,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             855,
+             856,
+             857
+          ]
+      },
+        {
+          "gateid": 855,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             517,
+             569
+          ]
+      },
+        {
+          "gateid": 856,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             518,
+             574
+          ]
+      },
+        {
+          "gateid": 857,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             519,
+             575
+          ]
+      },
+        {
+          "gateid": 859,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             105,
+             461
+          ]
+      },
+        {
+          "gateid": 860,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             116,
+             461
+          ]
+      },
+        {
+          "gateid": 862,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             102,
+             103
+          ]
+      },
+        {
+          "gateid": 865,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             77
+          ]
+      },
+        {
+          "gateid": 866,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             77
+          ]
+      },
+        {
+          "gateid": 867,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             868
+          ],
+          "eventinput": [
+             100
+          ]
+      },
+        {
+          "gateid": 868,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             78,
+             461
+          ]
+      },
+        {
+          "gateid": 869,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             870
+          ],
+          "eventinput": [
+             101
+          ]
+      },
+        {
+          "gateid": 870,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             78,
+             461
+          ]
+      },
+        {
+          "gateid": 871,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             178,
+             432
+          ]
+      },
+        {
+          "gateid": 872,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             873
+          ],
+          "eventinput": [
+             100
+          ]
+      },
+        {
+          "gateid": 873,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             78,
+             461
+          ]
+      },
+        {
+          "gateid": 874,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             179,
+             439
+          ]
+      },
+        {
+          "gateid": 875,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             876
+          ],
+          "eventinput": [
+             101
+          ]
+      },
+        {
+          "gateid": 876,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             78,
+             461
+          ]
+      },
+        {
+          "gateid": 877,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             102,
+             104
+          ]
+      },
+        {
+          "gateid": 959,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3582,
+             3592
+          ]
+      },
+        {
+          "gateid": 960,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             453
+          ],
+          "eventinput": [
+             3591,
+             3592
+          ]
+      },
+        {
+          "gateid": 1465,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             1461,
+             1462,
+             1463,
+             1464
+          ]
+      },
+        {
+          "gateid": 1461,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             595,
+             3475
+          ]
+      },
+        {
+          "gateid": 1462,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             596,
+             3474
+          ]
+      },
+        {
+          "gateid": 1463,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             597,
+             3473
+          ]
+      },
+        {
+          "gateid": 1464,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             598
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 51,
+        "gtid": 227,
+        "evid": 81,
+        "defflag": 0,
+        "numgates": 21
+      },
+      "gatelist": [
+        {
+          "gateid": 10,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             15,
+             19,
+             24,
+             27,
+             39,
+             40
+          ]
+      },
+        {
+          "gateid": 15,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             319,
+             3738
+          ]
+      },
+        {
+          "gateid": 19,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             320,
+             3817
+          ]
+      },
+        {
+          "gateid": 24,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             321,
+             3818
+          ]
+      },
+        {
+          "gateid": 27,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             322,
+             3819
+          ]
+      },
+        {
+          "gateid": 39,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             323,
+             3820
+          ]
+      },
+        {
+          "gateid": 40,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             324
+          ]
+      },
+        {
+          "gateid": 54,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             55,
+             569
+          ],
+          "eventinput": [
+             2900,
+             2920,
+             3419,
+             3424,
+             3426
+          ]
+      },
+        {
+          "gateid": 55,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             3430,
+             3434,
+             3438
+          ]
+      },
+        {
+          "gateid": 56,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             59,
+             570
+          ],
+          "eventinput": [
+             2901,
+             2920,
+             3420,
+             3424,
+             3427
+          ]
+      },
+        {
+          "gateid": 59,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             3431,
+             3435,
+             3439
+          ]
+      },
+        {
+          "gateid": 69,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             70,
+             571
+          ],
+          "eventinput": [
+             2902,
+             2920,
+             3421,
+             3424,
+             3428
+          ]
+      },
+        {
+          "gateid": 70,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             3432,
+             3436,
+             3440
+          ]
+      },
+        {
+          "gateid": 71,
+          "gatetype": "or",
+          "numinputs": 7,
+          "gateinput": [
+             72,
+             572
+          ],
+          "eventinput": [
+             2903,
+             2920,
+             3422,
+             3424,
+             3429
+          ]
+      },
+        {
+          "gateid": 72,
+          "gatetype": "or",
+          "numinputs": 3,
+          "eventinput": [
+             109,
+             110,
+             111
+          ]
+      },
+        {
+          "gateid": 227,
+          "gatetype": "or",
+          "numinputs": 2,
+          "gateinput": [
+             10,
+             749
+          ]
+      },
+        {
+          "gateid": 569,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             112
+          ]
+      },
+        {
+          "gateid": 570,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             113
+          ]
+      },
+        {
+          "gateid": 571,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             114
+          ]
+      },
+        {
+          "gateid": 572,
+          "gatetype": "and",
+          "numinputs": 1,
+          "eventinput": [
+             115
+          ]
+      },
+        {
+          "gateid": 749,
+          "gatetype": "3/4",
+          "numinputs": 4,
+          "gateinput": [
+             54,
+             56,
+             69,
+             71
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 174,
+        "gtid": 766,
+        "evid": 4012,
+        "defflag": 0,
+        "numgates": 1
+      },
+      "gatelist": [
+        {
+          "gateid": 766,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             284,
+             285
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 176,
+        "gtid": 768,
+        "evid": 4014,
+        "defflag": 0,
+        "numgates": 1
+      },
+      "gatelist": [
+        {
+          "gateid": 768,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             300,
+             301
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 178,
+        "gtid": 770,
+        "evid": 4016,
+        "defflag": 0,
+        "numgates": 1
+      },
+      "gatelist": [
+        {
+          "gateid": 770,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             3926
+          ]
+      }
+      ]
+   }
+   ],
+    "sequencelist": [
+      {
+        "seqid": 936,
+        "etid": 27,
+        "initid": 3737,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 4,
+        "blocksize": 4,
+        "logiclist": [
+           2147745966,
+           262320,
+           2147745970,
+           262195
+          ]
+      },
+      {
+        "seqid": 937,
+        "etid": 27,
+        "initid": 3737,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 5,
+        "blocksize": 5,
+        "logiclist": [
+           2147745966,
+           262320,
+           2147745970,
+           2147745843,
+           262186
+          ]
+      },
+      {
+        "seqid": 938,
+        "etid": 27,
+        "initid": 3737,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 6,
+        "blocksize": 6,
+        "logiclist": [
+           2147745966,
+           262320,
+           2147745970,
+           2147745843,
+           2147745834,
+           262188
+          ]
+      }
+    ],
+  "eventlist": [
+    {
+    "id": "6",
+    "corrgate": "0",
+    "name": "LPI-MDP-A-SEG-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "10",
+    "corrgate": "0",
+    "name": "EPS-XHE-XM-DGSEQ",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "T"
+    },
+    {
+    "id": "13",
+    "corrgate": "0",
+    "name": "<TRUE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "14",
+    "corrgate": "0",
+    "name": "<FALSE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "15",
+    "corrgate": "0",
+    "name": "<PASS>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "45",
+    "corrgate": "0",
+    "name": "EPS-SEQ-CF-DGAB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.48800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "51",
+    "corrgate": "0",
+    "name": "HPI-TNK-FC-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.26400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "52",
+    "corrgate": "0",
+    "name": "HPI-XVM-OC-001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.21700E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "53",
+    "corrgate": "0",
+    "name": "RWST-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "77",
+    "corrgate": "0",
+    "name": "HE-FLD-RHR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "78",
+    "corrgate": "0",
+    "name": "HE-FLD-SWS",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "100",
+    "corrgate": "0",
+    "name": "HE-FLD-SWSA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "101",
+    "corrgate": "0",
+    "name": "HE-FLD-SWSB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "105",
+    "corrgate": "0",
+    "name": "HE-FLD-4160VACA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "106",
+    "corrgate": "0",
+    "name": "HE-HWD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "112",
+    "corrgate": "0",
+    "name": "RCS-LOCA-CL1",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.50000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "113",
+    "corrgate": "0",
+    "name": "RCS-LOCA-CL2",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.50000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "114",
+    "corrgate": "0",
+    "name": "RCS-LOCA-CL3",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.50000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "115",
+    "corrgate": "0",
+    "name": "RCS-LOCA-CL4",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.50000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "116",
+    "corrgate": "0",
+    "name": "HE-FLD-4160VACB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "187",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "188",
+    "corrgate": "0",
+    "name": "LPI-CKV-CF-RCSCL",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.21400E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "189",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-002",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "190",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-003",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "191",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-004",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "192",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-001A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "193",
+    "corrgate": "0",
+    "name": "LPI-MOV-CC-MINFL005B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "194",
+    "corrgate": "0",
+    "name": "LPI-MOV-CF-MINFLW",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.64300E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "195",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-001B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "312",
+    "corrgate": "0",
+    "name": "HE-EQ6",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "316",
+    "corrgate": "0",
+    "name": "EPS-TNK-EQ3-DGN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.55600E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "318",
+    "corrgate": "0",
+    "name": "EPS-TNK-EQ1-DGN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.14600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "326",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ1-480V",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.07500E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "327",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ2-480V",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.33400E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "328",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ3-480V",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.81700E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "329",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ4-480V",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.63800E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "330",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ5-480V",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.66300E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "333",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ6-480V",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.78300E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "334",
+    "corrgate": "0",
+    "name": "ACP-480V-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "335",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ1-4KV",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49700E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "336",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ2-4KV",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.82300E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "337",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ3-4KV",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.62500E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "338",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ4-4KV",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.21000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "339",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ5-4KV",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.19400E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "340",
+    "corrgate": "0",
+    "name": "ACP-BAC-EQ6-4KV",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.10300E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "341",
+    "corrgate": "0",
+    "name": "ACP-4KV-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "391",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.92800E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "392",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.12200E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "393",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.75800E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "394",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.92000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "395",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.06400E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "396",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.95500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "397",
+    "corrgate": "0",
+    "name": "DCP-BAT-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "398",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.89400E-08,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "399",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.10800E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "400",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.17500E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "401",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.39600E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "402",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.64500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "403",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.46800E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "404",
+    "corrgate": "0",
+    "name": "DCP-BCH-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "405",
+    "corrgate": "0",
+    "name": "EPS-DGN-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.50400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "414",
+    "corrgate": "0",
+    "name": "EPS-DGN-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.90400E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "415",
+    "corrgate": "0",
+    "name": "EPS-TNK-EQ2-DGN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.22000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "416",
+    "corrgate": "0",
+    "name": "EPS-DGN-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.34900E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "417",
+    "corrgate": "0",
+    "name": "EPS-DGN-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.86500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "418",
+    "corrgate": "0",
+    "name": "EPS-TNK-EQ4-DGN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.28800E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "419",
+    "corrgate": "0",
+    "name": "EPS-DGN-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "420",
+    "corrgate": "0",
+    "name": "EPS-TNK-EQ5-DGN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.76500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "421",
+    "corrgate": "0",
+    "name": "EPS-DGN-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.39100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "422",
+    "corrgate": "0",
+    "name": "EPS-TNK-EQ6-DGN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.36200E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "429",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.50400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "430",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.90400E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "431",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.34900E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "432",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.86500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "433",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "434",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.39100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "435",
+    "corrgate": "0",
+    "name": "RHR-MDP-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "438",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.92800E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "439",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.12200E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "440",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.75800E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "441",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.92000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "442",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.06400E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "443",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.95500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "444",
+    "corrgate": "0",
+    "name": "RHR-HTX-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "451",
+    "corrgate": "0",
+    "name": "RWST-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.53500E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "452",
+    "corrgate": "0",
+    "name": "RWST-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.34800E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "453",
+    "corrgate": "0",
+    "name": "RWST-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.63900E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "454",
+    "corrgate": "0",
+    "name": "RWST-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.74100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "455",
+    "corrgate": "0",
+    "name": "RWST-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.42400E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "456",
+    "corrgate": "0",
+    "name": "RWST-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.89200E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "461",
+    "corrgate": "0",
+    "name": "FLI-XHE-XM-25MIN",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "481",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.50400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "482",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.90400E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "483",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.34900E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "484",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.86500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "485",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "486",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.39100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "487",
+    "corrgate": "0",
+    "name": "RHR-MDP-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "488",
+    "corrgate": "0",
+    "name": "RHR-MDP-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "513",
+    "corrgate": "0",
+    "name": "HE-HCN1",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "514",
+    "corrgate": "0",
+    "name": "HE-HCN2",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "515",
+    "corrgate": "0",
+    "name": "HE-HCN3",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "516",
+    "corrgate": "0",
+    "name": "HE-HCN4",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "517",
+    "corrgate": "0",
+    "name": "HE-TOR1",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "518",
+    "corrgate": "0",
+    "name": "HE-TOR2",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "519",
+    "corrgate": "0",
+    "name": "HE-TOR3",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "552",
+    "corrgate": "0",
+    "name": "RWST-TNK-HWD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "553",
+    "corrgate": "0",
+    "name": "HPI-TNK-HWD-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.00000E-10,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "554",
+    "corrgate": "0",
+    "name": "HPI-TNK-HCN1-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.00000E-08,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "555",
+    "corrgate": "0",
+    "name": "HPI-TNK-HCN2-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "556",
+    "corrgate": "0",
+    "name": "HPI-TNK-HCN3-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.00000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "557",
+    "corrgate": "0",
+    "name": "HPI-TNK-HCN4-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.00000E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "562",
+    "corrgate": "0",
+    "name": "RWST-TNK-TOR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "563",
+    "corrgate": "0",
+    "name": "HPI-TNK-TOR1-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.00000E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "564",
+    "corrgate": "0",
+    "name": "HPI-TNK-TOR2-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.00000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "565",
+    "corrgate": "0",
+    "name": "HPI-TNK-TOR3-RWST",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "566",
+    "corrgate": "0",
+    "name": "SWS-STR-HWD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "567",
+    "corrgate": "0",
+    "name": "SWS-STR-HWD-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.00000E-12,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "568",
+    "corrgate": "0",
+    "name": "SWS-STR-HC1-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.00000E-10,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "569",
+    "corrgate": "0",
+    "name": "SWS-STR-HC2-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.00000E-08,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "570",
+    "corrgate": "0",
+    "name": "SWS-STR-HC3-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "571",
+    "corrgate": "0",
+    "name": "SWS-STR-HC4-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "572",
+    "corrgate": "0",
+    "name": "SWS-STR-TOR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "574",
+    "corrgate": "0",
+    "name": "SWS-STR-TD2-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "575",
+    "corrgate": "0",
+    "name": "SWS-STR-TD3-STRC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "2900",
+    "corrgate": "0",
+    "name": "RCS-CKV-CC-001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "2901",
+    "corrgate": "0",
+    "name": "RCS-CKV-CC-002",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "2902",
+    "corrgate": "0",
+    "name": "RCS-CKV-CC-003",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "2903",
+    "corrgate": "0",
+    "name": "RCS-CKV-CC-004",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "2920",
+    "corrgate": "0",
+    "name": "RCS-CKV-CF-CC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.21400E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "2958",
+    "corrgate": "0",
+    "name": "ACP-4160-A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3003",
+    "corrgate": "0",
+    "name": "ACP-4160-B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3004",
+    "corrgate": "0",
+    "name": "DCP-125-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3008",
+    "corrgate": "0",
+    "name": "DCP-125-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3341",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3356",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-003A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3357",
+    "corrgate": "0",
+    "name": "LPI-CKV-CC-003B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3358",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-001A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3359",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-001B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3361",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-002A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3362",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-002B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3363",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-012A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3364",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-012B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3365",
+    "corrgate": "0",
+    "name": "LPI-MOV-CC-004B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.51000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3366",
+    "corrgate": "0",
+    "name": "LPI-MOV-CC-MINFL005A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.51000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3369",
+    "corrgate": "0",
+    "name": "LPI-MDP-FR-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.86500E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "C"
+    },
+    {
+    "id": "3370",
+    "corrgate": "0",
+    "name": "LPI-MDP-FR-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.86500E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "C"
+    },
+    {
+    "id": "3371",
+    "corrgate": "0",
+    "name": "LPI-MDP-FS-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.94000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3372",
+    "corrgate": "0",
+    "name": "LPI-MDP-FS-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.94000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3373",
+    "corrgate": "0",
+    "name": "LPI-MDP-TM-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.22000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3374",
+    "corrgate": "0",
+    "name": "LPI-MDP-TM-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.22000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3378",
+    "corrgate": "186",
+    "name": "LPI-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3379",
+    "corrgate": "0",
+    "name": "LPI-MDP-B-SEG-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3383",
+    "corrgate": "0",
+    "name": "LPI-MDP-CF-FR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.07900E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3384",
+    "corrgate": "0",
+    "name": "LPI-MDP-CF-FS",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.96200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3387",
+    "corrgate": "0",
+    "name": "EPS-DCP-125-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3395",
+    "corrgate": "0",
+    "name": "LPR-HTX-RP-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3396",
+    "corrgate": "0",
+    "name": "LPR-HTX-LK-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.69600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3399",
+    "corrgate": "0",
+    "name": "LPR-HTX-PG-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3400",
+    "corrgate": "0",
+    "name": "LPR-HTX-RP-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3401",
+    "corrgate": "0",
+    "name": "LPR-HTX-LK-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.69600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3404",
+    "corrgate": "0",
+    "name": "LPR-HTX-PG-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3405",
+    "corrgate": "0",
+    "name": "LPR-HTX-A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3406",
+    "corrgate": "0",
+    "name": "LPR-HTX-B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3446",
+    "corrgate": "0",
+    "name": "EPS-DCP-125-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3456",
+    "corrgate": "0",
+    "name": "HE-LOOP-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3458",
+    "corrgate": "0",
+    "name": "ACP-CRB-CO-A106",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.39300E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3493",
+    "corrgate": "0",
+    "name": "LPI-MOV-OC-004A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3533",
+    "corrgate": "0",
+    "name": "EPS-CRB-OO-A104",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3534",
+    "corrgate": "0",
+    "name": "EPS-DGN-LR-DGNA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.71300E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3535",
+    "corrgate": "0",
+    "name": "EPS-DGN-FR-DGNA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.43600E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3536",
+    "corrgate": "0",
+    "name": "EPS-DGN-FS-DGNA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.88000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3537",
+    "corrgate": "0",
+    "name": "EPS-DGNA-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3538",
+    "corrgate": "0",
+    "name": "ACP-4160-A-FT-T",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3539",
+    "corrgate": "0",
+    "name": "ACP-CRB-OO-A102",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3540",
+    "corrgate": "0",
+    "name": "ACP-TFM-FC-X1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.93600E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3541",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-SWY101",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3542",
+    "corrgate": "0",
+    "name": "ACP-CRB-CO-A103",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.76000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3543",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-X1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3544",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3545",
+    "corrgate": "0",
+    "name": "ACP-CRB-CC-B101",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3546",
+    "corrgate": "0",
+    "name": "ACP-CRB-OC-B103",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.76000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3547",
+    "corrgate": "0",
+    "name": "ACP-CRB-OO-B102",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3548",
+    "corrgate": "0",
+    "name": "ACP-TFM-FC-XB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.93600E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3549",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-XB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3550",
+    "corrgate": "0",
+    "name": "ACP-4160-B-FT-T",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3552",
+    "corrgate": "0",
+    "name": "EPS-DGNB-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3553",
+    "corrgate": "0",
+    "name": "EPS-CRB-OO-B104",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3554",
+    "corrgate": "0",
+    "name": "EPS-DGN-LR-DGNB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.71300E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3555",
+    "corrgate": "0",
+    "name": "EPS-DGN-FR-DGNB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.43600E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3556",
+    "corrgate": "0",
+    "name": "EPS-DGN-FS-DGNB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.88000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3559",
+    "corrgate": "0",
+    "name": "EPS-DGN-TM-DGNA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.34000E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3560",
+    "corrgate": "0",
+    "name": "EPS-DGN-TM-DGNB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.34000E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3561",
+    "corrgate": "0",
+    "name": "EPS-DGN-CF-FS",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.75900E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3562",
+    "corrgate": "0",
+    "name": "EPS-DGN-CF-FR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.42900E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3563",
+    "corrgate": "0",
+    "name": "EPS-DGN-CF-FTLR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.13500E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3564",
+    "corrgate": "0",
+    "name": "EPS-SEQ-FC-DGNA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.14000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3565",
+    "corrgate": "0",
+    "name": "EPS-SEQ-FC-DGNB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.14000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3572",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-480V1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3573",
+    "corrgate": "0",
+    "name": "ACP-CRB-CO-A105",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.39300E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3574",
+    "corrgate": "0",
+    "name": "ACP-TFM-FC-480V1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.93600E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3575",
+    "corrgate": "0",
+    "name": "DCP-BCH-FC-A01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.21600E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3577",
+    "corrgate": "0",
+    "name": "EPS-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3582",
+    "corrgate": "0",
+    "name": "DCP-BAT-LP-A01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.92800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3583",
+    "corrgate": "0",
+    "name": "DCP-BCH-TM-A01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.00000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3584",
+    "corrgate": "0",
+    "name": "DCP-BDC-LP-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.20800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3587",
+    "corrgate": "0",
+    "name": "DCP-BCH-FC-B01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.21600E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3588",
+    "corrgate": "0",
+    "name": "DCP-BCH-CF-ALL",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.89400E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3591",
+    "corrgate": "0",
+    "name": "DCP-BAT-LP-B01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.92800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3592",
+    "corrgate": "0",
+    "name": "DCP-BAT-CF-ALL",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.56200E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3593",
+    "corrgate": "0",
+    "name": "DCP-BDC-LP-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.20800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3613",
+    "corrgate": "0",
+    "name": "DCP-BCH-TM-B01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.00000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3622",
+    "corrgate": "0",
+    "name": "ACP-CRB-CC-A101",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3623",
+    "corrgate": "0",
+    "name": "ACP-CRB-CC-A001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3628",
+    "corrgate": "0",
+    "name": "ACP-CRB-CC-B001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3632",
+    "corrgate": "0",
+    "name": "DGNA-HW-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3633",
+    "corrgate": "0",
+    "name": "DGNB-HW-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3647",
+    "corrgate": "0",
+    "name": "HE-LOOP-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3665",
+    "corrgate": "0",
+    "name": "HE-SBO",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3686",
+    "corrgate": "0",
+    "name": "SWS-MDP-FR-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.57400E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3687",
+    "corrgate": "0",
+    "name": "SWS-MDP-FR-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.57400E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3689",
+    "corrgate": "0",
+    "name": "SWS-MDP-FS-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.41000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3690",
+    "corrgate": "0",
+    "name": "SWS-MDP-FS-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.41000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3692",
+    "corrgate": "0",
+    "name": "SWS-MDP-TM-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.22000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3693",
+    "corrgate": "0",
+    "name": "SWS-MDP-TM-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.22000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3695",
+    "corrgate": "0",
+    "name": "SWS-CKV-CC-001A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3696",
+    "corrgate": "0",
+    "name": "SWS-CKV-CC-001B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3698",
+    "corrgate": "0",
+    "name": "SWS-STR-PG-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.31200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3699",
+    "corrgate": "0",
+    "name": "SWS-STR-PG-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.31200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3702",
+    "corrgate": "0",
+    "name": "SWS-MDP-CF-FTS",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.68900E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3703",
+    "corrgate": "0",
+    "name": "SWS-MDP-CF-FTR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.02200E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3704",
+    "corrgate": "0",
+    "name": "SWS-XVM-CO-002B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.21700E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3709",
+    "corrgate": "0",
+    "name": "SWS-CKV-CF-CC001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.07100E-08,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3710",
+    "corrgate": "0",
+    "name": "SWS-STR-CF-PG",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.59200E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3711",
+    "corrgate": "0",
+    "name": "EPS-SWS-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3714",
+    "corrgate": "0",
+    "name": "EPS-SWS-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3737",
+    "corrgate": "0",
+    "name": "IE-EQ-BIN5",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.31000E-07,
+    "initf": "I",
+    "processf": " ",
+    "calctype": "N"
+    },
+    {
+    "id": "3738",
+    "corrgate": "0",
+    "name": "HE-EQ1",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3739",
+    "corrgate": "0",
+    "name": "ACP480-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3742",
+    "corrgate": "0",
+    "name": "ACP480-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3758",
+    "corrgate": "0",
+    "name": "ACP-BAC-LP-480V1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.29200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3759",
+    "corrgate": "0",
+    "name": "ACP-TFM-FC-480V1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.93600E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3760",
+    "corrgate": "0",
+    "name": "ACP-CRB-CO-B105",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.39300E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3761",
+    "corrgate": "0",
+    "name": "ACP-CRB-CO-B106",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.39300E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3766",
+    "corrgate": "0",
+    "name": "SWS-XVM-OO-002A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.59000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3817",
+    "corrgate": "0",
+    "name": "HE-EQ2",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3818",
+    "corrgate": "0",
+    "name": "HE-EQ3",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3819",
+    "corrgate": "0",
+    "name": "HE-EQ4",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3820",
+    "corrgate": "0",
+    "name": "HE-EQ5",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "T"
+    },
+    {
+    "id": "3918",
+    "corrgate": "0",
+    "name": "RWST-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3919",
+    "corrgate": "0",
+    "name": "SWS-MDP-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "64",
+    "corrgate": "0",
+    "name": "CCW-AOV-OC-HTXA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.52000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "65",
+    "corrgate": "0",
+    "name": "CCW-AOV-OC-HTXDISA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.52000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "82",
+    "corrgate": "0",
+    "name": "CCW-CKV-CC-002B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "102",
+    "corrgate": "0",
+    "name": "HE-FLD-CCW",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "103",
+    "corrgate": "0",
+    "name": "HE-FLD-CCWA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "104",
+    "corrgate": "0",
+    "name": "HE-FLD-CCWB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "120",
+    "corrgate": "0",
+    "name": "CCW-XHE-XM-TRNC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "X"
+    },
+    {
+    "id": "121",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-001A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "122",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-002A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "123",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-001C_A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "124",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-002C_A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "125",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-001B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "126",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-002B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "127",
+    "corrgate": "0",
+    "name": "CCW-AOV-OC-HTXB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.52000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "128",
+    "corrgate": "0",
+    "name": "CCW-AOV-OC-HTXDISB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.52000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "129",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-001C_B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "130",
+    "corrgate": "0",
+    "name": "CCW-MOV-OC-002C_B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "201",
+    "corrgate": "31",
+    "name": "LPR-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "202",
+    "corrgate": "0",
+    "name": "LPR-MOV-OO-004A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.35000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "203",
+    "corrgate": "0",
+    "name": "LPR-MOV-OO-004B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.35000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "219",
+    "corrgate": "0",
+    "name": "SWS-TRNA-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "220",
+    "corrgate": "0",
+    "name": "SWS-TRNB-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "221",
+    "corrgate": "0",
+    "name": "SWS-TRN-OP-STDYA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "222",
+    "corrgate": "0",
+    "name": "SWS-MOV-OC-001A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "223",
+    "corrgate": "0",
+    "name": "SWS-XHE-XM-TRNC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "X"
+    },
+    {
+    "id": "224",
+    "corrgate": "0",
+    "name": "SWS-MOV-OC-001B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "225",
+    "corrgate": "0",
+    "name": "SWS-TRN-OP-STDYB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "365",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.50400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "366",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.90400E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "367",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.34900E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "368",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.86500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "369",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "370",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.39100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "371",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.92800E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "372",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.12200E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "373",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.75800E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "374",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.92000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "375",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.06400E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "376",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.95500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "377",
+    "corrgate": "0",
+    "name": "CCW-HTX-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "592",
+    "corrgate": "0",
+    "name": "CCW-TNK-FC-SURGE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.26400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3348",
+    "corrgate": "0",
+    "name": "CCW-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3349",
+    "corrgate": "0",
+    "name": "CCW-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3350",
+    "corrgate": "0",
+    "name": "SWS-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3351",
+    "corrgate": "0",
+    "name": "SWS-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3389",
+    "corrgate": "0",
+    "name": "LPR-MOV-CC-009A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3390",
+    "corrgate": "0",
+    "name": "LPR-MOV-CC-009B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.21000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3391",
+    "corrgate": "0",
+    "name": "LPR-MOV-CF-CC-009",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.78900E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3393",
+    "corrgate": "0",
+    "name": "LPR-MDP-A-SEG-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3394",
+    "corrgate": "0",
+    "name": "LPR-MDP-B-SEG-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3453",
+    "corrgate": "0",
+    "name": "CCW-TRN-OP-STDYA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3457",
+    "corrgate": "0",
+    "name": "CCW-TRN-OP-STDYB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3462",
+    "corrgate": "0",
+    "name": "CCW-HTX-CF-PG",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.47900E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3464",
+    "corrgate": "0",
+    "name": "CCW-HTX-PG-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.27900E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3465",
+    "corrgate": "0",
+    "name": "CCW-HTX-PG-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.27900E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3469",
+    "corrgate": "0",
+    "name": "CCW-MDP-CF-FTR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.06100E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3470",
+    "corrgate": "0",
+    "name": "CCW-MDP-CF-FTS",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.91300E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3473",
+    "corrgate": "0",
+    "name": "CCW-MDP-FR-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.62400E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3474",
+    "corrgate": "0",
+    "name": "CCW-MDP-FR-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.62400E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3475",
+    "corrgate": "0",
+    "name": "CCW-MDP-FR-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.62400E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3477",
+    "corrgate": "0",
+    "name": "CCW-MDP-FS-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.78000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3478",
+    "corrgate": "0",
+    "name": "CCW-MDP-FS-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.78000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3481",
+    "corrgate": "0",
+    "name": "CCW-MDP-FS-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.78000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3485",
+    "corrgate": "0",
+    "name": "CCW-MDP-TM-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.91000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3532",
+    "corrgate": "0",
+    "name": "HE-LOCCW",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3569",
+    "corrgate": "0",
+    "name": "CCW-MDP-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3600",
+    "corrgate": "0",
+    "name": "CCW-MDP-1A-R-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3601",
+    "corrgate": "0",
+    "name": "CCW-MDP-1B-R-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3602",
+    "corrgate": "0",
+    "name": "CCW-MDP-1C-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3666",
+    "corrgate": "0",
+    "name": "SWS-1C-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3670",
+    "corrgate": "0",
+    "name": "CCW-HTX-RP-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3672",
+    "corrgate": "0",
+    "name": "CCW-HTX-LK-1B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.69600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3678",
+    "corrgate": "0",
+    "name": "CCW-HTX-RP-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3679",
+    "corrgate": "0",
+    "name": "CCW-HTX-LK-1A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.69600E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3682",
+    "corrgate": "0",
+    "name": "CCW-HTX-1A-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3683",
+    "corrgate": "0",
+    "name": "CCW-HTX-1B-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3688",
+    "corrgate": "0",
+    "name": "SWS-MDP-FR-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.57400E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3691",
+    "corrgate": "0",
+    "name": "SWS-MDP-FS-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.41000E-04,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3694",
+    "corrgate": "0",
+    "name": "SWS-MDP-TM-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.22000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3697",
+    "corrgate": "0",
+    "name": "SWS-CKV-CC-001C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3700",
+    "corrgate": "0",
+    "name": "SWS-STR-PG-1C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.31200E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3732",
+    "corrgate": "0",
+    "name": "CSS-SMP-PG-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.20800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3733",
+    "corrgate": "0",
+    "name": "CSS-SMP-PG-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.20800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3734",
+    "corrgate": "0",
+    "name": "CSS-SMP-CF-PG",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.93000E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "4690",
+    "corrgate": "0",
+    "name": "HE-LOOP",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "595",
+    "corrgate": "0",
+    "name": "CCW-MDP-CF-FTR-AB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.17300E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "596",
+    "corrgate": "0",
+    "name": "CCW-MDP-CF-FTR-AC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.17300E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "597",
+    "corrgate": "0",
+    "name": "CCW-MDP-CF-FTR-BC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.17300E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "598",
+    "corrgate": "0",
+    "name": "CCW-MDP-CF-FTR-ABC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.06000E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "81",
+    "corrgate": "227",
+    "name": "ACC-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "109",
+    "corrgate": "0",
+    "name": "ACC-TNK-RP-ACCD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.01600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "110",
+    "corrgate": "0",
+    "name": "ACC-TNK-LK-ACCD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.88000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "111",
+    "corrgate": "0",
+    "name": "ACC-TNK-FC-ACCD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.60800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "319",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.50400E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "320",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.90400E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "321",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.34900E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "322",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.86500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "323",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.00100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "324",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.39100E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "325",
+    "corrgate": "0",
+    "name": "ACC-TNK-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3419",
+    "corrgate": "0",
+    "name": "ACC-CKV-CC-001A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3420",
+    "corrgate": "0",
+    "name": "ACC-CKV-CC-001B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3421",
+    "corrgate": "0",
+    "name": "ACC-CKV-CC-001C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3422",
+    "corrgate": "0",
+    "name": "ACC-CKV-CC-001D",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.24000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3424",
+    "corrgate": "0",
+    "name": "ACC-CKV-CF-CC001",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.21400E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "R"
+    },
+    {
+    "id": "3426",
+    "corrgate": "0",
+    "name": "ACC-MOV-OC-002A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3427",
+    "corrgate": "0",
+    "name": "ACC-MOV-OC-002B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3428",
+    "corrgate": "0",
+    "name": "ACC-MOV-OC-002C",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3429",
+    "corrgate": "0",
+    "name": "ACC-MOV-OC-002D",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 7.77600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3430",
+    "corrgate": "0",
+    "name": "ACC-TNK-RP-ACCA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.01600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3431",
+    "corrgate": "0",
+    "name": "ACC-TNK-RP-ACCB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.01600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3432",
+    "corrgate": "0",
+    "name": "ACC-TNK-RP-ACCC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.01600E-07,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3434",
+    "corrgate": "0",
+    "name": "ACC-TNK-LK-ACCA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.88000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3435",
+    "corrgate": "0",
+    "name": "ACC-TNK-LK-ACCB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.88000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3436",
+    "corrgate": "0",
+    "name": "ACC-TNK-LK-ACCC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.88000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3438",
+    "corrgate": "0",
+    "name": "ACC-TNK-FC-ACCA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.60800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3439",
+    "corrgate": "0",
+    "name": "ACC-TNK-FC-ACCB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.60800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "3440",
+    "corrgate": "0",
+    "name": "ACC-TNK-FC-ACCC",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.60800E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "3"
+    },
+    {
+    "id": "284",
+    "corrgate": "0",
+    "name": "STR-EQ5-CD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.24000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "285",
+    "corrgate": "0",
+    "name": "SGS-EQ5-CD",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.63400E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "4012",
+    "corrgate": "766",
+    "name": "CD-EQ5-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.64600E-01,
+    "initf": " ",
+    "processf": "W",
+    "calctype": "S"
+    },
+    {
+    "id": "300",
+    "corrgate": "0",
+    "name": "RCS-SYS-EQ5-LLOCA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.23000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "301",
+    "corrgate": "0",
+    "name": "RCS-RCP-EQ5-LLOCA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.69200E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "4014",
+    "corrgate": "768",
+    "name": "LLOCA-EQ5-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.74400E-01,
+    "initf": " ",
+    "processf": "W",
+    "calctype": "S"
+    },
+    {
+    "id": "3926",
+    "corrgate": "0",
+    "name": "LOOP-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.99500E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "4016",
+    "corrgate": "770",
+    "name": "LOOP-EQ5-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": "I",
+    "calctype": "1"
+    },
+    {
+    "id": "1103",
+    "corrgate": "0",
+    "name": "ZA-MDP-FR-CCW-03A01",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.84000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "1104",
+    "corrgate": "0",
+    "name": "ZA-MDP-FR-CCW-03A02",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.26000E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "1105",
+    "corrgate": "0",
+    "name": "ZA-MDP-FR-CCW-03A03",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.11000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    }
+  ]
+}
+}

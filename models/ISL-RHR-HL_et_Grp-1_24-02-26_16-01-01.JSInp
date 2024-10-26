@@ -1,0 +1,325 @@
+{
+  "version": "1.0",
+  "saphiresolveinput": {
+    "header": {
+      "projectpath": "\"C:\\Users\\egeme\\Desktop\\models\\G-PWR Model V1.2\"",
+      "eventtree": {
+        "name": "ISL-RHR-HL",
+        "number": 20,
+        "initevent": 3985,
+        "seqphase": 1
+      },
+      "flagnum": 0,
+      "ftcount": 3,
+      "fthigh": 223,
+      "sqcount": 2,
+      "sqhigh": 4,
+      "becount": 11,
+      "behigh": 4011,
+      "mthigh": 1,
+      "phhigh": 1,
+      "truncparam": {
+        "ettruncopt": "NormalProbCutOff",
+        "fttruncopt": "GlobalProbCutOff",
+        "sizeopt": "ENoTrunc",
+        "ettruncval": 1.000E-20,
+        "fttruncval": 1.000E-20,
+        "sizeval": 99,
+        "transrepl": false,
+        "transzones": false,
+        "translevel": 0,
+        "usedual": false,
+        "dualcutoff": 0.000E+00
+      },
+      "workspacepair": {
+        "ph": 1,
+        "mt": 1
+      },
+      "iworkspacepair": {
+        "ph": 1,
+        "mt": 1
+      }
+    },
+    "sysgatelist": [
+      {
+        "name": "ISL-RPT-RHR-FT",
+        "id": 69,
+        "gateid": 33,
+        "gateorig": 33,
+        "gatepos": 0,
+        "eventid": 178,
+        "gatecomp": 33,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "ISL-RHR-HL-REC-FT",
+        "id": 71,
+        "gateid": 373,
+        "gateorig": 373,
+        "gatepos": 0,
+        "eventid": 179,
+        "gatecomp": 373,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      },
+      {
+        "name": "ISL-DIAG-FT",
+        "id": 167,
+        "gateid": 761,
+        "gateorig": 761,
+        "gatepos": 0,
+        "eventid": 3343,
+        "gatecomp": 761,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      }
+      ],
+    "faulttreelist": [
+    {
+      "ftheader": {
+        "ftid": 69,
+        "gtid": 33,
+        "evid": 178,
+        "defflag": 0,
+        "numgates": 1
+      },
+      "gatelist": [
+        {
+          "gateid": 33,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             168
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 71,
+        "gtid": 373,
+        "evid": 179,
+        "defflag": 0,
+        "numgates": 1
+      },
+      "gatelist": [
+        {
+          "gateid": 373,
+          "gatetype": "or",
+          "numinputs": 2,
+          "eventinput": [
+             185,
+             186
+          ]
+      }
+      ]
+        },
+    {
+      "ftheader": {
+        "ftid": 167,
+        "gtid": 761,
+        "evid": 3343,
+        "defflag": 0,
+        "numgates": 1
+      },
+      "gatelist": [
+        {
+          "gateid": 761,
+          "gatetype": "or",
+          "numinputs": 1,
+          "eventinput": [
+             4011
+          ]
+      }
+      ]
+   }
+   ],
+    "sequencelist": [
+      {
+        "seqid": 3,
+        "etid": 20,
+        "initid": 3985,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 2,
+        "blocksize": 2,
+        "logiclist": [
+           262213,
+           262311
+          ]
+      },
+      {
+        "seqid": 4,
+        "etid": 20,
+        "initid": 3985,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 3,
+        "blocksize": 3,
+        "logiclist": [
+           262213,
+           2147745959,
+           262215
+          ]
+      }
+    ],
+  "eventlist": [
+    {
+    "id": "13",
+    "corrgate": "0",
+    "name": "<TRUE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "14",
+    "corrgate": "0",
+    "name": "<FALSE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "15",
+    "corrgate": "0",
+    "name": "<PASS>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "168",
+    "corrgate": "0",
+    "name": "ISL-PSF-RP-RHR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "178",
+    "corrgate": "33",
+    "name": "ISL-RPT-RHR-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3985",
+    "corrgate": "0",
+    "name": "IEFT-ISL-RHR-HLS-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.96800E-08,
+    "initf": "I",
+    "processf": " ",
+    "calctype": "S"
+    },
+    {
+    "id": "179",
+    "corrgate": "373",
+    "name": "ISL-RHR-HL-REC-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "185",
+    "corrgate": "0",
+    "name": "ISL-XHE-XE-RECRHR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "X"
+    },
+    {
+    "id": "186",
+    "corrgate": "0",
+    "name": "ISL-XHE-XE-NRECRHR",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3343",
+    "corrgate": "761",
+    "name": "ISL-DIAG-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "4011",
+    "corrgate": "0",
+    "name": "ISL-XHE-XD-DIAG",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 4.00000E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "X"
+    }
+  ]
+}
+}

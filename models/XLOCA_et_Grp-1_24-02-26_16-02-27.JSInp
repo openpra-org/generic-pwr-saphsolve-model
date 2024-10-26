@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "saphiresolveinput": {
+    "header": {
+      "projectpath": "\"C:\\Users\\egeme\\Desktop\\models\\G-PWR Model V1.2\"",
+      "eventtree": {
+        "name": "XLOCA",
+        "number": 8,
+        "initevent": 3346,
+        "seqphase": 1
+      },
+      "flagnum": 0,
+      "ftcount": 1,
+      "fthigh": 224,
+      "sqcount": 1,
+      "sqhigh": 49,
+      "becount": 5,
+      "behigh": 3352,
+      "mthigh": 1,
+      "phhigh": 1,
+      "truncparam": {
+        "ettruncopt": "NormalProbCutOff",
+        "fttruncopt": "GlobalProbCutOff",
+        "sizeopt": "ENoTrunc",
+        "ettruncval": 1.000E-20,
+        "fttruncval": 1.000E-20,
+        "sizeval": 99,
+        "transrepl": false,
+        "transzones": false,
+        "translevel": 0,
+        "usedual": false,
+        "dualcutoff": 0.000E+00
+      },
+      "workspacepair": {
+        "ph": 1,
+        "mt": 1
+      },
+      "iworkspacepair": {
+        "ph": 1,
+        "mt": 1
+      }
+    },
+    "sysgatelist": [
+      {
+        "name": "RXVESSEL",
+        "id": 133,
+        "gateid": 648,
+        "gateorig": 648,
+        "gatepos": 0,
+        "eventid": 3352,
+        "gatecomp": 648,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      }
+      ],
+    "faulttreelist": [
+    {
+      "ftheader": {
+        "ftid": 133,
+        "gtid": 648,
+        "evid": 3352,
+        "defflag": 0,
+        "numgates": 1
+      }
+   }
+   ],
+    "sequencelist": [
+      {
+        "seqid": 49,
+        "etid": 8,
+        "initid": 3346,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 1,
+        "blocksize": 1,
+        "logiclist": [
+           262277
+          ]
+      }
+    ],
+  "eventlist": [
+    {
+    "id": "13",
+    "corrgate": "0",
+    "name": "<TRUE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "14",
+    "corrgate": "0",
+    "name": "<FALSE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "15",
+    "corrgate": "0",
+    "name": "<PASS>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3346",
+    "corrgate": "0",
+    "name": "IE-XLOCA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-07,
+    "initf": "I",
+    "processf": " ",
+    "calctype": "N"
+    },
+    {
+    "id": "3352",
+    "corrgate": "648",
+    "name": "RXVESSEL",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    }
+  ]
+}
+}

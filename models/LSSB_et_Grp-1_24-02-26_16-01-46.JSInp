@@ -1,0 +1,653 @@
+{
+  "version": "1.0",
+  "saphiresolveinput": {
+    "header": {
+      "projectpath": "\"C:\\Users\\egeme\\Desktop\\models\\G-PWR Model V1.2\"",
+      "eventtree": {
+        "name": "LSSB",
+        "number": 11,
+        "initevent": 3444,
+        "seqphase": 1
+      },
+      "flagnum": 0,
+      "ftcount": 1,
+      "fthigh": 224,
+      "sqcount": 1,
+      "sqhigh": 8,
+      "becount": 30,
+      "behigh": 3917,
+      "mthigh": 1,
+      "phhigh": 1,
+      "truncparam": {
+        "ettruncopt": "NormalProbCutOff",
+        "fttruncopt": "GlobalProbCutOff",
+        "sizeopt": "ENoTrunc",
+        "ettruncval": 1.000E-20,
+        "fttruncval": 1.000E-20,
+        "sizeval": 99,
+        "transrepl": false,
+        "transzones": false,
+        "translevel": 0,
+        "usedual": false,
+        "dualcutoff": 0.000E+00
+      },
+      "workspacepair": {
+        "ph": 1,
+        "mt": 1
+      },
+      "iworkspacepair": {
+        "ph": 1,
+        "mt": 1
+      }
+    },
+    "sysgatelist": [
+      {
+        "name": "RPS-FT",
+        "id": 62,
+        "gateid": 342,
+        "gateorig": 342,
+        "gatepos": 0,
+        "eventid": 3645,
+        "gatecomp": 342,
+        "comppos": 0,
+        "compflag": " ",
+        "gateflag": " ",
+        "gatet": " ",
+        "bddsuccess": false,
+        "done": false
+      }
+      ],
+    "faulttreelist": [
+    {
+      "ftheader": {
+        "ftid": 62,
+        "gtid": 342,
+        "evid": 3645,
+        "defflag": 0,
+        "numgates": 17
+      },
+      "gatelist": [
+        {
+          "gateid": 342,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             343,
+             716
+          ],
+          "eventinput": [
+             3640
+          ]
+      },
+        {
+          "gateid": 343,
+          "gatetype": "and",
+          "numinputs": 2,
+          "gateinput": [
+             344,
+             351
+          ]
+      },
+        {
+          "gateid": 344,
+          "gatetype": "or",
+          "numinputs": 4,
+          "gateinput": [
+             345,
+             346,
+             347,
+             348
+          ]
+      },
+        {
+          "gateid": 345,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             3641,
+             3643
+          ]
+      },
+        {
+          "gateid": 346,
+          "gatetype": "and",
+          "numinputs": 3,
+          "eventinput": [
+             3636,
+             3642
+          ],
+          "compeventinput": [
+             3637
+          ]
+      },
+        {
+          "gateid": 347,
+          "gatetype": "and",
+          "numinputs": 3,
+          "eventinput": [
+             3635,
+             3637,
+             3642
+          ]
+      },
+        {
+          "gateid": 348,
+          "gatetype": "or",
+          "numinputs": 3,
+          "gateinput": [
+             349,
+             350
+          ],
+          "eventinput": [
+             3634
+          ]
+      },
+        {
+          "gateid": 349,
+          "gatetype": "and",
+          "numinputs": 3,
+          "eventinput": [
+             3639,
+             3642
+          ],
+          "compeventinput": [
+             3637
+          ]
+      },
+        {
+          "gateid": 350,
+          "gatetype": "and",
+          "numinputs": 3,
+          "eventinput": [
+             3637,
+             3638,
+             3642
+          ]
+      },
+        {
+          "gateid": 351,
+          "gatetype": "and",
+          "numinputs": 2,
+          "compeventinput": [
+             3456,
+             3647
+          ]
+      },
+        {
+          "gateid": 650,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             445,
+             3738
+          ]
+      },
+        {
+          "gateid": 651,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             446,
+             3817
+          ]
+      },
+        {
+          "gateid": 652,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             447,
+             3818
+          ]
+      },
+        {
+          "gateid": 661,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             448,
+             3819
+          ]
+      },
+        {
+          "gateid": 716,
+          "gatetype": "or",
+          "numinputs": 6,
+          "gateinput": [
+             650,
+             651,
+             652,
+             661,
+             717,
+             718
+          ]
+      },
+        {
+          "gateid": 717,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             449,
+             3820
+          ]
+      },
+        {
+          "gateid": 718,
+          "gatetype": "and",
+          "numinputs": 2,
+          "eventinput": [
+             312,
+             450
+          ]
+      }
+      ]
+   }
+   ],
+    "sequencelist": [
+      {
+        "seqid": 8,
+        "etid": 11,
+        "initid": 3444,
+        "qmethod": "M",
+        "qpasses": 0,
+        "numlogic": 1,
+        "blocksize": 1,
+        "logiclist": [
+           262206
+          ]
+      }
+    ],
+  "eventlist": [
+    {
+    "id": "13",
+    "corrgate": "0",
+    "name": "<TRUE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "14",
+    "corrgate": "0",
+    "name": "<FALSE>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "15",
+    "corrgate": "0",
+    "name": "<PASS>",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "312",
+    "corrgate": "0",
+    "name": "HE-EQ6",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "445",
+    "corrgate": "0",
+    "name": "RPS-ROD-EQ1-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.49700E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "446",
+    "corrgate": "0",
+    "name": "RPS-ROD-EQ2-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.82300E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "447",
+    "corrgate": "0",
+    "name": "RPS-ROD-EQ3-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.62500E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "448",
+    "corrgate": "0",
+    "name": "RPS-ROD-EQ4-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.21000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "449",
+    "corrgate": "0",
+    "name": "RPS-ROD-EQ5-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.19400E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "450",
+    "corrgate": "0",
+    "name": "RPS-ROD-EQ6-BE",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 9.10300E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "J"
+    },
+    {
+    "id": "3444",
+    "corrgate": "0",
+    "name": "IE-LSSB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 3.01000E-04,
+    "initf": "I",
+    "processf": " ",
+    "calctype": "N"
+    },
+    {
+    "id": "3456",
+    "corrgate": "0",
+    "name": "HE-LOOP-A",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3634",
+    "corrgate": "0",
+    "name": "RPS-BME-CF-RTBAB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.61000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3635",
+    "corrgate": "0",
+    "name": "RPS-CBI-CF-4OF6",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 8.21000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3636",
+    "corrgate": "0",
+    "name": "RPS-CBI-CF-6OF8",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 2.70000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3637",
+    "corrgate": "0",
+    "name": "RPS-CCP-TM-CHA",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 5.00000E-03,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3638",
+    "corrgate": "0",
+    "name": "RPS-CCX-CF-4OF6",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 6.33000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3639",
+    "corrgate": "0",
+    "name": "RPS-CCX-CF-6OF8",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.83000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3640",
+    "corrgate": "0",
+    "name": "RPS-CRM-CF-RCCAS",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.21000E-06,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3641",
+    "corrgate": "0",
+    "name": "RPS-UVL-CF-UVDAB",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.04000E-05,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3642",
+    "corrgate": "0",
+    "name": "RPS-XHE-XM-NSGNL",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.20000E-01,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "X"
+    },
+    {
+    "id": "3643",
+    "corrgate": "0",
+    "name": "RPS-XHE-XM-SIGNL",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E-02,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3645",
+    "corrgate": "342",
+    "name": "RPS-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    },
+    {
+    "id": "3647",
+    "corrgate": "0",
+    "name": "HE-LOOP-B",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3738",
+    "corrgate": "0",
+    "name": "HE-EQ1",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3817",
+    "corrgate": "0",
+    "name": "HE-EQ2",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3818",
+    "corrgate": "0",
+    "name": "HE-EQ3",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3819",
+    "corrgate": "0",
+    "name": "HE-EQ4",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3820",
+    "corrgate": "0",
+    "name": "HE-EQ5",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 0.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "F"
+    },
+    {
+    "id": "3917",
+    "corrgate": "0",
+    "name": "RPS-EQ-FT",
+    "evworkspacepair": {
+      "ph": 1,
+      "mt": 1
+    },
+    "value": 1.00000E+00,
+    "initf": " ",
+    "processf": " ",
+    "calctype": "1"
+    }
+  ]
+}
+}
