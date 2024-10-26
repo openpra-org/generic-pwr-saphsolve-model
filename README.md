@@ -7,7 +7,7 @@
   * [5. Additional References Related to Synthetic Models](#5-additional-references-related-to-synthetic-models)
 <!-- TOC -->
 
-# Generic SAPHSOLVE Models
+# Generic PWR SAPHSOLVE Models
 
 This repository includes generic PWR v1.2 model in SAPHSOLVE JSON format. The goals of including these models are to:
 
