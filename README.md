@@ -7,7 +7,7 @@
   * [5. Additional References Related to Synthetic Models](#5-additional-references-related-to-synthetic-models)
 <!-- TOC -->
 
-# Generic PWR SAPHSOLVE Models
+# Generic PWR SAPHSOLVE Models [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13996960.svg)](https://doi.org/10.5281/zenodo.13996960)
 
 This repository includes generic PWR v1.2 model in SAPHSOLVE JSON format. The goals of including these models are to:
 
