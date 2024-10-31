@@ -1,0 +1,14 @@
+{
+  "$id": "http://example.com/definitions/workspacepair.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ph": {
+      "type": "integer"
+    },
+    "mt": {
+      "type": "integer"
+    }
+  },
+  "required": ["ph", "mt"]
+}

@@ -11,7 +11,7 @@
 
 This repository includes generic PWR v1.2 model in SAPHSOLVE JSON format. The goals of including these models are to:
 
-- Serve as test cases for various PRA tools, including [Open-PRA](https://github.com/openpra-org/openpra-monorepo).
+- Serve as test cases for various PRA tools, including [OpenPRA](https://github.com/openpra-org/openpra-monorepo).
 - Familiarize users with different modeling approaches and formats.
 - Provide a reference for PRA model exchange.
 - And more.

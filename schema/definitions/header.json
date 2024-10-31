@@ -1,0 +1,26 @@
+{
+  "$id": "http://example.com/definitions/header.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "projectpath": { "type": "string" },
+    "eventtree": { "$ref": "eventtree.json" },
+    "flagnum": { "type": "integer" },
+    "ftcount": { "type": "integer" },
+    "fthigh": { "type": "integer" },
+    "sqcount": { "type": "integer" },
+    "sqhigh": { "type": "integer" },
+    "becount": { "type": "integer" },
+    "behigh": { "type": "integer" },
+    "mthigh": { "type": "integer" },
+    "phhigh": { "type": "integer" },
+    "truncparam": { "$ref": "truncparam.json" },
+    "workspacepair": { "$ref": "workspacepair.json" },
+    "iworkspacepair": { "$ref": "workspacepair.json" }
+  },
+ "required": [
+    "projectpath", "eventtree", "flagnum", "ftcount", "fthigh",
+    "sqcount", "sqhigh", "becount", "behigh", "mthigh", "phhigh",
+    "truncparam", "workspacepair", "iworkspacepair"
+  ]
+}

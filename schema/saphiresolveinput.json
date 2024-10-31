@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SaphireSolveInput",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "saphiresolveinput": {
+      "$ref": "definitions/saphiresolveinput.json"
+    }
+  },
+  "required": ["version", "saphiresolveinput"]
+}

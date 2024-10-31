@@ -1,0 +1,45 @@
+{
+  "$id": "http://example.com/definitions/truncparam.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ettruncopt": {
+      "type": "string"
+    },
+    "fttruncopt": {
+      "type": "string"
+    },
+    "sizeopt": {
+      "type": "string"
+    },
+    "ettruncval": {
+      "type": "number"
+    },
+    "fttruncval": {
+      "type": "number"
+    },
+    "sizeval": {
+      "type": "integer"
+    },
+    "transrepl": {
+      "type": "boolean"
+    },
+    "transzones": {
+      "type": "boolean"
+    },
+    "translevel": {
+      "type": "integer"
+    },
+    "usedual": {
+      "type": "boolean"
+    },
+    "dualcutoff": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "ettruncopt", "fttruncopt", "sizeopt", "ettruncval",
+    "fttruncval", "sizeval", "transrepl", "transzones",
+    "translevel", "usedual", "dualcutoff"
+  ]
+}

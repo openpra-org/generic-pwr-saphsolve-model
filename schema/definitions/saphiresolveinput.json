@@ -1,0 +1,27 @@
+{
+  "$id": "http://example.com/definitions/saphiresolveinput.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "header": {
+      "$ref": "header.json"
+    },
+    "sysgatelist": {
+      "type": "array",
+      "items": { "$ref": "sysgate.json" }
+    },
+    "faulttreelist": {
+      "type": "array",
+      "items": { "$ref": "faulttree.json" }
+    },
+    "sequencelist": {
+      "type": "array",
+      "items": { "$ref": "sequence.json" }
+    },
+    "eventlist": {
+      "type": "array",
+      "items": { "$ref": "event.json" }
+    }
+  },
+  "required": ["header", "sysgatelist", "faulttreelist", "sequencelist", "eventlist"]
+}
