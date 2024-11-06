@@ -1,13 +1,13 @@
+# Generic PWR SAPHSOLVE Models 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13996960.svg)](https://doi.org/10.5281/zenodo.13996960)
 <!-- TOC -->
-* [Generic SAPHSOLVE Models](#generic-saphsolve-models)
+* [Generic PWR SAPHSOLVE Models](#generic-pwr-saphsolve-models-)
   * [1. SAPHSOLVE Model Format](#1-saphsolve-model-format)
   * [2. About Generic PWR v1.2 Model](#2-about-generic-pwr-v12-model)
   * [3. Export Models in JSON Format](#3-export-models-in-json-format)
   * [4. Usage](#4-usage)
   * [5. Additional References Related to Synthetic Models](#5-additional-references-related-to-synthetic-models)
 <!-- TOC -->
-
-# Generic PWR SAPHSOLVE Models [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13996960.svg)](https://doi.org/10.5281/zenodo.13996960)
 
 This repository includes generic PWR v1.2 model in SAPHSOLVE JSON format. The goals of including these models are to:
 
