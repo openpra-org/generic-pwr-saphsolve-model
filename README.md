@@ -1,5 +1,6 @@
 # Generic PWR SAPHSOLVE Models 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13996960.svg)](https://doi.org/10.5281/zenodo.13996960)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13996959.svg)](https://doi.org/10.5281/zenodo.13996960)
 <!-- TOC -->
 * [Generic PWR SAPHSOLVE Models](#generic-pwr-saphsolve-models-)
   * [1. SAPHSOLVE Model Format](#1-saphsolve-model-format)
